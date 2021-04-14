@@ -45,7 +45,14 @@
 }
 
 
+.imgProduct a{
+    display: table;
+}
 
+.imgProduct a img{
+    width: 100%;
+    display: table-row;
+}
 
 
 #melkP{
@@ -69,10 +76,6 @@
     overflow: hidden;
 }
 
-
-
-
-
 h1{
     color: var(--darkbleu);
 }
@@ -83,7 +86,8 @@ h1{
 }
 
 .navbar-nav{
-    margin-top: 15px;  
+    margin-top: 15px;
+    width: 100%;
   }
 
   .featurette-heading{
@@ -93,15 +97,96 @@ h1{
     font-size: 50px;
 }
 
+.contact-form{
+    background: #fff;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    width: 70%;
+}
+.contact-form .form-control{
+    border-radius:1rem;
+}
+.contact-image{
+    text-align: center;
+}
+.contact-image img{
+    border-radius: 6rem;
+    width: 11%;
+    margin-top: -3%;
+    transform: rotate(29deg);
+}
+.contact-form form{
+    padding: 14%;
+}
+.contact-form form .row{
+    margin-bottom: -7%;
+}
+.contact-form h3{
+    margin-bottom: 8%;
+    margin-top: -10%;
+    text-align: center;
+    color: #0062cc;
+}
+.contact-form .btnContact {
+    width: 50%;
+    border: none;
+    border-radius: 1rem;
+    padding: 1.5%;
+    background: #dc3545;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+}
+.btnContactSubmit
+{
+    width: 50%;
+    border-radius: 1rem;
+    padding: 1.5%;
+    color: #fff;
+    background-color: #0062cc;
+    border: none;
+    cursor: pointer;
+}
 
+.cta{
+    text-align: center;
+    border-radius: .1875rem;
+    transition: 0.3s ease-in-out;
+    display: inline-block;
+    text-decoration: none;
+    border: 0;
+    font-weight: 600;
+    line-height: 1.5em;
+    background-color: #ff7a59;
+    color: #fff;
+    border: 1px solid #ff7a59;
+    ;
+    font-size: .9rem;
+    margin-top: 28px;
+}
 
+.cta:hover{
+    background-color: #ffbcac;
+    color: #fff;
+    border: 1px solid #ffbcac;
+}
+.navbar-brand{
+    margin-right: 0;
+}
+/*styling zeer groot toestel*/
 @media only screen and (min-width: 1440px){
+
+    
+    
     .nav-item:first-child{
-        margin-left: 7rem;
+        margin-left: 20px;
+    }
+    #apero{
+        margin-right: 0px;
     }
 
     .nav-item{
-        margin-right: 50px;
+        margin-right: 40px;
         min-width: 100px;
     }
 
@@ -116,10 +201,25 @@ h1{
         padding-bottom: 5px;
         height: 100px;
     }
+
+    .cta{
+        min-width: 15%;
+        width: 15rem;
+        height: 3rem;
+        text-align: center;
+        padding-top: 10px;
+        margin: auto;
+        display: block;
+    }
+    #contact{
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
 }
 
-
-@media only screen and (max-width: 1439px) and (min-width: 1024px){
+/*styling groot toestel*/
+@media only screen and (max-width: 1440px) and (min-width: 1024px){
     .nav-item{
         margin-right: 25px;
         min-width: 80px;
@@ -134,7 +234,22 @@ h1{
 
     #logoimage{
         padding-bottom: 5px;
-        height: 100px;
+        height: 70px;
+    }
+    .cta{
+        min-width: 15%;
+        width: 10rem;
+        height: 2.5rem;
+        text-align: center;
+        padding-top: 8px;
+        margin: auto;
+        display: block;
+    }
+    #contact{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        margin-right: 0;
     }
 }
 /*styling middel toestel*/
@@ -153,7 +268,22 @@ h1{
 
     #logoimage{
         padding-bottom: 5px;
-        height: 100px;
+        height: 60px;
+    }
+
+    .cta{
+        min-width: 15%;
+        width: 50%;
+        height: 3rem;
+        text-align: center;
+        padding-top: 10px;
+        margin: auto;
+        display: block;
+    }
+    #contact{
+        width: 100%;
+        display: flex;
+        align-items: center;
     }
 
 }
@@ -174,6 +304,16 @@ h1{
     #logoimage{
         padding-bottom: 5px;
         height: 100px;
+    }
+
+    .cta{
+        min-width: 15%;
+        width: 60%;
+        height: 3rem;
+        text-align: center;
+        padding-top: 10px;
+        margin: auto;
+        display: block;
     }
 }
 
@@ -203,6 +343,16 @@ h1{
 
     #navigationHeader{
         min-height: 75px;
+    }
+
+    .cta{
+        min-width: 15%;
+        width: 60%;
+        height: 3rem;
+        text-align: center;
+        padding-top: 10px;
+        margin: auto;
+        display: block;
     }
 }
 

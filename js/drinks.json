@@ -1,0 +1,180 @@
+{
+    "water": {
+        "Spa Reine": 
+        {
+        "naam": "Spa Reine",
+        "liter": 1,
+        "foto": "hier een link naar image"   
+        },
+        "Evian": 
+        {
+        "naam": "Evian",
+        "liter": 1,
+        "foto": "hier een link naar image"   
+        },
+        "Chaudfontaine blauw": 
+        {
+        "naam": "Chaudfontaine blauw",
+        "liter": 1,
+        "foto": "hier een link naar image"   
+        },
+        "Spa Intense": 
+        {
+        "naam": "Spa Intense",
+        "liter": 1,
+        "foto": "hier een link naar image"   
+        },
+        "Chaudfontaine rood": 
+        {
+        "naam": "Chaudfontaine rood",
+        "liter": 1,
+        "foto": "hier een link naar image"   
+        },
+        "Bru": 
+        {
+        "naam": "Bru",
+        "liter": 1,
+        "foto": "hier een link naar image"   
+        }
+    },
+    "zuivel": {
+        "Inza halfvolle melk": 
+        {
+        "naam": "Inza halfvolle melk",
+        "liter": 1,
+        "foto": "hier een link naar image"   
+        },
+        "Inza volle melk": 
+        {
+        "naam" : "Inza volle melk",
+        "liter": 1,
+        "foto": "hier een link naar image"   
+        },
+        "Cécémel": 
+        {
+        "naam": "Cécémel",
+        "liter": 0.75,
+        "foto": "hier een link naar image"   
+        }
+    },
+    "bier": {
+        "Jupiler": 
+        {
+        "naam" : "Jupiler",
+        "liter": 0.25,
+        "foto": "hier een link naar image"   
+        },
+        "Maes": 
+        {
+        "naam" : "Maes",
+        "liter": 0.25,
+        "foto": "hier een link naar image"   
+        },
+        "Stella": 
+        {
+        "naam" : "Stella",
+        "liter": 0.25,
+        "foto": "hier een link naar image"   
+        },
+        "Brugse Zot": 
+        {
+        "naam" : "Brugse Zot",
+        "liter": 0.33,
+        "foto": "hier een link naar image"   
+        },
+        "Sportzot": 
+        {
+        "naam" : "Sportzot",
+        "liter": 0.33,
+        "foto": "hier een link naar image"   
+        },
+        "Duvel": 
+        {
+        "naam": "Duvel",
+        "liter": 0.33,
+        "foto": "hier een link naar image"   
+        },
+        "Westmalle Dubbel": 
+        {
+        "naam" : "Westmalle Dubbel",
+        "liter": 0.33,
+        "foto": "hier een link naar image"   
+        },
+        "Westmalle Tripel": 
+        {
+        "naam": "Westmalle Tripel",
+        "liter": 0.33,
+        "foto": "hier een link naar image"   
+        },
+        "Lindemans Kriek": 
+        {
+        "naam": "Lindemans Kriek",
+        "liter": 0.33,
+        "foto": "hier een link naar image"   
+        }
+    },
+    "frisdrank": {
+        "Coca-Cola": 
+        {
+        "naam": "Coca-Cola",
+        "liter": 1,
+        "foto": "hier een link naar image"   
+        },
+        "Coca-Cola Zero": 
+        {
+        "naam": "Coca-Cola Zero",
+        "liter": 1,
+        "foto": "hier een link naar image"   
+        },
+        "Fanta": 
+        {
+        "naam": "Fanta",
+        "liter": 1,
+        "foto": "hier een link naar image"   
+        },
+        "Sprite": 
+        {
+        "naam": "Sprite",
+        "liter": 1,
+        "foto": "hier een link naar image"   
+        },
+        "Lipton Ice Tea": 
+        {
+        "naam": "Lipton Ice Tea",
+        "liter": 1,
+        "foto": "hier een link naar image"   
+        }
+    },
+    "fruitsap": {
+        "Looza Sinaas": 
+        {
+        "naam": "Looza Sinaas",
+        "liter": 1,
+        "foto": "hier een link naar image"   
+        },
+        "Looza Appel": 
+        {
+        "naam": "Looza Appel",
+        "liter": 1,
+        "foto": "hier een link naar image"   
+        },
+        "Bio fruitsap sinaas": 
+        {
+        "naam" : "Bio fruitsap sinaas",
+        "liter": 1,
+        "foto": "hier een link naar image"   
+        },
+        "Bio appel": 
+        {
+        "naam": "Bio appel",
+        "liter": 1,
+        "foto": "hier een link naar image"   
+        },
+        "Bio multi": 
+        {
+        "naam": "Bio multi",
+        "liter": 1,
+        "foto": "hier een link naar image"   
+        }
+    }
+}
