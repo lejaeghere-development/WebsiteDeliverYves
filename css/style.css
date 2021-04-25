@@ -2,6 +2,11 @@
     --darkbleu: #00203F;
 }
 
+*{
+    color: var(--darkbleu);
+    padding: 0;
+}
+
 #navigation-nav{
     min-height: 170px;
 }
@@ -172,22 +177,13 @@ h1{
 }
 .navbar-brand{
     margin-right: 0;
+    margin-left: 25px;
 }
 /*styling zeer groot toestel*/
 @media only screen and (min-width: 1440px){
 
-    
-    
-    .nav-item:first-child{
-        margin-left: 20px;
-    }
-    #apero{
-        margin-right: 0px;
-    }
-
-    .nav-item{
-        margin-right: 40px;
-        min-width: 100px;
+    .navbar-nav{
+        justify-content: space-evenly;
     }
 
     .nav-link img{
@@ -199,7 +195,8 @@ h1{
 
     #logoimage{
         padding-bottom: 5px;
-        height: 100px;
+        height: 170px;
+        margin-right: 50px;
     }
 
     .cta{
@@ -212,7 +209,6 @@ h1{
         display: block;
     }
     #contact{
-        width: 100%;
         display: flex;
         align-items: center;
     }
@@ -220,21 +216,22 @@ h1{
 
 /*styling groot toestel*/
 @media only screen and (max-width: 1440px) and (min-width: 1024px){
-    .nav-item{
-        margin-right: 25px;
-        min-width: 80px;
+
+    .navbar-nav{
+        justify-content: space-evenly;
     }
 
     .nav-link img{
-        height: 30px;
+        height: 40px;
     }
     .nav-link img:hover{
-        height: 40px;
+        height: 50px;
     }
 
     #logoimage{
         padding-bottom: 5px;
-        height: 70px;
+        height: 170px;
+        margin-right: 50px;
     }
     .cta{
         min-width: 15%;
@@ -246,7 +243,6 @@ h1{
         display: block;
     }
     #contact{
-        width: 100%;
         display: flex;
         align-items: center;
         margin-right: 0;
@@ -254,6 +250,7 @@ h1{
 }
 /*styling middel toestel*/
 @media only screen and (max-width: 1023px) and (min-width: 768px){
+
     .nav-item{
         margin-right: 10px;
         min-width: 70px;
@@ -268,7 +265,7 @@ h1{
 
     #logoimage{
         padding-bottom: 5px;
-        height: 60px;
+        height: 100px;
     }
 
     .cta{
@@ -281,9 +278,8 @@ h1{
         display: block;
     }
     #contact{
-        width: 100%;
-        display: flex;
         align-items: center;
+        margin-right: 0;
     }
 
 }
@@ -355,6 +351,3 @@ h1{
         display: block;
     }
 }
-
-
-
