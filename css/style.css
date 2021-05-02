@@ -1,10 +1,13 @@
 :root{
     --darkbleu: #00203F;
+    --logobleu: #075fac;
+    --gray: #f8f9fa;
 }
 
 *{
-    color: var(--darkbleu);
+    color: var(--logobleu);
     padding: 0;
+    font-family: 'Lato', sans-serif;
 }
 
 #navigation-nav{
@@ -13,10 +16,6 @@
 
 .navbar-nav{
     min-height: 130px;
-}
-
-#myCarousel{
-    height: 500px;
 }
 
 .carousel-inner{
@@ -50,16 +49,6 @@
 }
 
 
-.imgProduct a{
-    display: table;
-}
-
-.imgProduct a img{
-    width: 100%;
-    display: table-row;
-}
-
-
 #melkP{
     margin-left: 5px;
 }
@@ -79,15 +68,6 @@
     height: 100%;
     object-fit: cover;
     overflow: hidden;
-}
-
-h1{
-    color: var(--darkbleu);
-}
-
-
-.carousel-caption p{
-    color: var(--darkbleu);
 }
 
 .navbar-nav{
@@ -130,7 +110,7 @@ h1{
     margin-bottom: 8%;
     margin-top: -10%;
     text-align: center;
-    color: #0062cc;
+    color: var(--darkbleu);
 }
 .contact-form .btnContact {
     width: 50%;
@@ -148,7 +128,7 @@ h1{
     border-radius: 1rem;
     padding: 1.5%;
     color: #fff;
-    background-color: #0062cc;
+    background-color: var(--logobleu);
     border: none;
     cursor: pointer;
 }
@@ -162,22 +142,53 @@ h1{
     border: 0;
     font-weight: 600;
     line-height: 1.5em;
-    background-color: #ff7a59;
+    background-color: #8cc97b;
     color: #fff;
-    border: 1px solid #ff7a59;
+    border: 1px solid #8cc97b;
     ;
     font-size: .9rem;
     margin-top: 28px;
 }
 
 .cta:hover{
-    background-color: #ffbcac;
+    background-color: #abd3a0;
     color: #fff;
-    border: 1px solid #ffbcac;
+    border: 1px solid #abd3a0;
 }
 .navbar-brand{
     margin-right: 0;
     margin-left: 25px;
+}
+.lead{
+    color: var(--darkbleu);
+}
+.white{
+    color: white;
+}
+.DarkBlue{
+    color: var(--darkbleu);
+}
+.imgProduct img{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: table-row;
+    margin:auto;
+}
+
+.product-info p{
+    color: var(--darkbleu);
+    text-align: center;
+}
+
+.product-item{
+    margin-top: 20px;
+}
+
+.title{
+    margin-top: 20px;
+}
+
+.headerProduct h2, .product-info{
+    margin: auto;
 }
 /*styling zeer groot toestel*/
 @media only screen and (min-width: 1440px){
@@ -212,6 +223,20 @@ h1{
         display: flex;
         align-items: center;
     }
+
+    #myCarousel{
+        height: 700px;
+    }
+
+    .imgProduct img, .headerProduct h2, .product-info {
+        width: 330px;
+        margin-top: 15px;
+    }
+
+    #h1Div{
+      margin-left: 73px;
+    }
+    
 }
 
 /*styling groot toestel*/
@@ -246,6 +271,22 @@ h1{
         display: flex;
         align-items: center;
         margin-right: 0;
+    }
+
+    #myCarousel{
+        height: 500px;
+    }
+
+    .imgProduct img, .headerProduct h2, .product-info {
+        width: 270px;
+    }
+
+    #h1Div{
+        margin-left: 20px;
+      }
+
+    .headerProduct h2 {
+        font-size: 1.7rem;
     }
 }
 /*styling middel toestel*/
@@ -282,6 +323,14 @@ h1{
         margin-right: 0;
     }
 
+    .imgProduct img, .headerProduct h2, .product-info {
+        width: 270px;
+    }
+
+    .product-info p:last-child{
+        display: none;
+    }
+
 }
 /*styling klein toestel*/
 @media only screen and (max-width: 767px) and (min-width: 405px){ 
@@ -310,6 +359,18 @@ h1{
         padding-top: 10px;
         margin: auto;
         display: block;
+    }
+
+    .imgProduct img, .headerProduct h2, .product-info {
+        width: 230px;
+    }
+
+    .product-info p:last-child{
+        display: none;
+    }
+
+    .headerProduct h2{
+        font-size: 1.5rem;
     }
 }
 
@@ -349,5 +410,13 @@ h1{
         padding-top: 10px;
         margin: auto;
         display: block;
+    }
+
+    .product-info p:last-child{
+        display: none;
+    }
+
+    .imgProduct img, .headerProduct h2, .product-info {
+        width: 200px;
     }
 }
