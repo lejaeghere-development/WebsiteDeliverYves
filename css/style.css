@@ -1,6 +1,8 @@
 :root{
     --darkbleu: #00203F;
     --logobleu: #075fac;
+    --logogreen: #8cc97b;
+    --logolightgreen: #abd3a0;
     --gray: #f8f9fa;
 }
 
@@ -12,6 +14,10 @@
 
 #navigation-nav{
     min-height: 170px;
+}
+
+.dark{
+    color: var(--darkbleu);
 }
 
 .navbar-nav{
@@ -76,7 +82,6 @@
   }
 
   .featurette-heading{
-    margin-top: 11rem;
     line-height: 1;
     letter-spacing: -.05rem;
     font-size: 50px;
@@ -164,7 +169,20 @@
 }
 .white{
     color: white;
+    
 }
+
+.carousel-caption h1{
+font-size: 2.5rem;
+
+}
+
+
+
+.carousel-caption P{
+    font-size: 1.5rem;
+    }
+
 .DarkBlue{
     color: var(--darkbleu);
 }
@@ -187,7 +205,11 @@
     margin-top: 20px;
 }
 
-.headerProduct h2, .product-info{
+.headerProduct h2{
+    margin: auto;
+}
+
+.product-info{
     margin: auto;
 }
 /*styling zeer groot toestel*/
@@ -225,16 +247,27 @@
     }
 
     #myCarousel{
-        height: 700px;
+        height: 500px;
     }
 
     .imgProduct img, .headerProduct h2, .product-info {
-        width: 330px;
+        width: 250px;
         margin-top: 15px;
     }
 
+    .headerProduct h2{
+        font-size: 1.5rem;
+    }
+    
+
     #h1Div{
       margin-left: 73px;
+    }
+
+    .featurette-heading{
+        margin-top: 4rem;
+        margin-bottom: 2rem;
+        font-size: 2.5rem;
     }
     
 }
@@ -278,7 +311,7 @@
     }
 
     .imgProduct img, .headerProduct h2, .product-info {
-        width: 270px;
+        width: 200px;
     }
 
     #h1Div{
@@ -286,7 +319,13 @@
       }
 
     .headerProduct h2 {
-        font-size: 1.7rem;
+        font-size: 1.3rem;
+    }
+
+    .featurette-heading{
+        margin-top: 3rem;
+        margin-bottom: 1.5rem;
+        font-size: 2rem;
     }
 }
 /*styling middel toestel*/
@@ -324,11 +363,28 @@
     }
 
     .imgProduct img, .headerProduct h2, .product-info {
-        width: 270px;
+        width: 200px;
+    }
+
+    .headerProduct h2{
+        font-size: 1.3rem;
     }
 
     .product-info p:last-child{
         display: none;
+    }
+
+    #myCarousel{
+        height: 400px;
+    }
+    .carousel-caption P{
+        font-size: 1.5rem;
+    }
+
+    .featurette-heading{
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        font-size: 2rem;
     }
 
 }
@@ -371,6 +427,20 @@
 
     .headerProduct h2{
         font-size: 1.5rem;
+    }
+
+    #myCarousel{
+        height: 400px;
+    }
+
+    .carousel-caption P{
+        font-size: 1.5rem;
+    }
+
+    .featurette-heading{
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        font-size: 2rem;
     }
 }
 
@@ -419,4 +489,27 @@
     .imgProduct img, .headerProduct h2, .product-info {
         width: 200px;
     }
+
+    #myCarousel{
+        height: 300px;
+    }
+
+    .carousel-caption P{
+        font-size: 1rem;
+        }
+
+    #cheers{
+        margin-bottom: 30px;
+        }
+
+    .carousel-caption h1{
+        font-size: 1.5rem;
+    }
+
+    .featurette-heading{
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        font-size: 2rem;
+    }
+
 }
