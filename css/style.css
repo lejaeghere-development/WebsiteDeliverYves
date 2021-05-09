@@ -177,8 +177,6 @@ font-size: 2.5rem;
 
 }
 
-
-
 .carousel-caption P{
     font-size: 1.5rem;
     }
@@ -211,6 +209,14 @@ font-size: 2.5rem;
 
 .product-info{
     margin: auto;
+}
+
+.panoramaImg{
+    filter: brightness(80%);
+}
+
+.objectDown{
+    object-position: bottom;
 }
 /*styling zeer groot toestel*/
 @media only screen and (min-width: 1440px){
@@ -247,7 +253,7 @@ font-size: 2.5rem;
     }
 
     #myCarousel{
-        height: 500px;
+        height: 600px;
     }
 
     .imgProduct img, .headerProduct h2, .product-info {
@@ -332,8 +338,9 @@ font-size: 2.5rem;
 @media only screen and (max-width: 1023px) and (min-width: 768px){
 
     .nav-item{
-        margin-right: 10px;
+        margin-right: 2rem;
         min-width: 70px;
+
     }
 
     .nav-link img{
@@ -350,14 +357,15 @@ font-size: 2.5rem;
 
     .cta{
         min-width: 15%;
-        width: 50%;
-        height: 3rem;
+        width: 10rem;
+        height: 2.5rem;
         text-align: center;
-        padding-top: 10px;
+        padding-top: 8px;
         margin: auto;
         display: block;
     }
     #contact{
+        display: flex;
         align-items: center;
         margin-right: 0;
     }
@@ -368,10 +376,6 @@ font-size: 2.5rem;
 
     .headerProduct h2{
         font-size: 1.3rem;
-    }
-
-    .product-info p:last-child{
-        display: none;
     }
 
     #myCarousel{
@@ -419,10 +423,6 @@ font-size: 2.5rem;
 
     .imgProduct img, .headerProduct h2, .product-info {
         width: 230px;
-    }
-
-    .product-info p:last-child{
-        display: none;
     }
 
     .headerProduct h2{
@@ -480,10 +480,6 @@ font-size: 2.5rem;
         padding-top: 10px;
         margin: auto;
         display: block;
-    }
-
-    .product-info p:last-child{
-        display: none;
     }
 
     .imgProduct img, .headerProduct h2, .product-info {
