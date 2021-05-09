@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <link rel="icon" href="/logo/DeliverYvesLogo.svg" type="image/svg+xml" sizes="16x16">
+    <title>DeliverYves</title>
+</head>
+
+<body>
+    <header>
+        <nav id="navigationHeader" class="navbar navbar-expand-lg navbar-light bg-light rounded"
+            aria-label="Eleventh navbar example">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img id="logoimage" src="/logo/DeliverYvesLogo.svg" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarsExample09">
+                    <ul class="navbar-nav mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active nav-header" aria-current="page" href="/views/water.html">
+                                <img src="/icons/png/iconfinder_plastic_1118197.png" alt="">
+                                <p class="headingP">Water</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active nav-header" aria-current="page" href="/views/frisdrank.html">
+                                <img src="/icons/png/iconfinder_Coke-botle-cola-soda_3876748.png" alt="">
+                                <p class="headingP">Frisdrank</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active nav-header" aria-current="page" href="/views/zuivel.html">
+                                <img src="/icons/png/iconfinder_Milk_5727017.png" alt="">
+                                <p class="headingP" id="melkP">Zuivel</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active nav-header" aria-current="page" href="/views/bier.html">
+                                <img src="/icons/png/iconfinder_l-23_3573685.png" alt="">
+                                <p class="headingP">Bier</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active nav-header" aria-current="page" href="/views/fruitsap.html">
+                                <img src="/icons/png/iconfinder_splash-juice-orange-mango-vector-fruit_2832288.png"
+                                    alt="">
+                                <p class="headingP">Fruitsap</p>
+                            </a>
+                        </li>
+                        <li class="nav-item" id="apero">
+                            <a class="nav-link active nav-header" aria-current="page" href="/views/apero.html">
+                                <img src="/icons/png/iconfinder_hand_drawn-54_2607369.png" alt="">
+                                <p class="headingP">Apéro</p>
+                            </a>
+                        </li>
+                        <li class="nav-item" id="contact">
+                            <a href="/views/contact.html" class="cta">Contacteer ons</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+    </header>
+
+    <!--------------------------- FAQ section -------------------------------
+    ------------------------------------------------------------------------->
+    <section class="accordion-section clearfix mt-3" aria-label="Question Accordions">
+        <div class="container-md">
+
+            <h2 id="faq-title">Waarmee kunnen wij u helpen?</h2>
+        
+            <!-- Welke dranken bieden jullie aan? -->
+            <div class="accordion" id="accordionDefault">
+                <div class="accordion-item" id="faq-accordion-item">
+                    <h2 class="accordion-header" id="headingDefaultOne">
+                        <button type="button" class="accordion-button" data-bs-toggle="collapse" id="faq-btn"
+                            data-bs-target="#collapseDefaultOne" aria-expanded="true" aria-controls="collapseDefaultOne">
+                            Welke dranken bieden jullie aan?
+                        </button>
+                    </h2>
+                    <div id="collapseDefaultOne" class="accordion-collapse collapse show" aria-labelledby="headingDefaultOne"
+                        data-bs-parent="#accordionDefault">
+                        <div class="accordion-body" id="faq-accordion-body">
+                            We bieden  6 gamma’s aan: <br>
+                            Water, frisdrank, zuivel, bier, fruitsap en apéro. <br>
+                            Via deze link (= te activeren) vindt u de detaillijst van wat kan besteld worden. <br>
+                            We evalueren ons gamma op geregelde tijdsstippen volgens uw behoeften. <br>
+                            Indien uw favoriete drank ontbreekt, dan kunt u onze butler aanspreken en die kijkt dan of die drank leverbaar is. <br>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Hoe zit jullie prijs t.o.v. concurrentie met de supermarkt, de drankencentrale of de buurtwinkel? -->
+                <div class="accordion-item" id="faq-accordion-item">
+                    <h2 class="accordion-header" id="headingDefaultTwo">
+                        <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" id="faq-btn"
+                            data-bs-target="#collapseDefaultTwo" aria-expanded="false" aria-controls="collapseDefaultTwo">
+                            Hoe zit jullie prijs t.o.v. concurrentie met de supermarkt, de drankencentrale of de buurtwinkel?
+                        </button>
+                    </h2>
+                    <div id="collapseDefaultTwo" class="accordion-collapse collapse" aria-labelledby="headingDefaultTwo"
+                        data-bs-parent="#accordionDefault">
+                        <div class="accordion-body">
+                            Onze prijzen zijn competitief t.o.v.  uw huidige winkel of supermarkt. We garanderen vaste prijzen voor meerdere kwartalen en melden u steeds op voorhand eventuele prijswijzigingen. <br>
+                            Bovendien brengen wij aan huis en betaalt u slechts 4, 95 euro per levering. <br>
+                            We zorgen er voor dat u voldoende drank in stock hebt en letten op de vervaldata, zodat we niet zo vaak niet vaker dan nodig moeten langskomen. <br>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Zijn jullie coronaproof? -->
+                <div class="accordion-item" id="faq-accordion-item">
+                    <h2 class="accordion-header" id="headingDefaultThree">
+                        <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" id="faq-btn"
+                            data-bs-target="#collapseDefaultThree" aria-expanded="false" aria-controls="collapseDefaultThree">
+                            Zijn jullie coronaproof?
+                        </button>
+                    </h2>
+                    <div id="collapseDefaultThree" class="accordion-collapse collapse" aria-labelledby="headingDefaultThree"
+                        data-bs-parent="#accordionDefault">
+                        <div class="accordion-body">
+                            Ja, zeker. De persoon die bij u levert, ontsmet na iedere levering en voorafgaand aan de levering bij u grondig zijn handen. <br>
+                            Hij heeft uiteraard steeds een mondmasker op en zal de nodige afstand bewaren. <br>
+                            De betaling gebeurt volledig online. <br>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Zijn de ’aan huis’ leveringen niet belastend voor het milieu? -->
+                <div class="accordion-item" id="faq-accordion-item">
+                    <h2 class="accordion-header" id="headingDefaultFour">
+                        <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" id="faq-btn"
+                            data-bs-target="#collapseDefaultFour" aria-expanded="false" aria-controls="collapseDefaultFour">
+                            Zijn de ’aan huis’ leveringen niet belastend voor het milieu? 
+                        </button>
+                    </h2>
+                    <div id="collapseDefaultFour" class="accordion-collapse collapse" aria-labelledby="headingDefaultFour"
+                        data-bs-parent="#accordionDefault">
+                        <div class="accordion-body">
+                            Het is onze doelstelling om zo milieuvriendelijk als mogelijk te zijn : 
+                            <ul>
+                                <li>We rijden met elektrische wagentjes en hebben dus geen CO2 uitstoot</li>
+                                <li>We combineren meerdere klanten per rit en sparen zo heel wat kilometers uit</li>
+                                <li>We beperken zoveel als mogelijk  afval omdat we werken met recycleerbare en herbruikbare recipiënten zoals glazen flessen en recycleerbare tassen</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Hoeveel betaal ik per levering? -->
+                <div class="accordion-item" id="faq-accordion-item">
+                    <h2 class="accordion-header" id="headingDefaultFive">
+                        <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" id="faq-btn"
+                            data-bs-target="#collapseDefaultFive" aria-expanded="false" aria-controls="collapseDefaultFive">
+                            Hoeveel betaal ik per levering? 
+                        </button>
+                    </h2>
+                    <div id="collapseDefaultFive" class="accordion-collapse collapse" aria-labelledby="headingDefaultFive"
+                        data-bs-parent="#accordionDefault">
+                        <div class="accordion-body">
+                            Onze dienstverlening is 2-wekelijks en u betaalt 4,95 euro per levering. Dit is inclusief het ophalen van leeggoed. <br>
+                            De door ons geleverde glazen flessen waarop geen statiegeld zit (zoals van wijn of cava) worden door ons naar de glasbak gebracht. Deze dienstverlening zit dus ook in de prijs van 4,95 euro.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Rekenen jullie ook een leveringskost als we niet thuis zijn?  -->
+                <div class="accordion-item" id="faq-accordion-item">
+                    <h2 class="accordion-header" id="headingDefaultSix">
+                        <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" id="faq-btn"
+                            data-bs-target="#collapseDefaultSix" aria-expanded="false" aria-controls="collapseDefaultSix">
+                            Rekenen jullie ook een leveringskost als we niet thuis zijn? 
+                        </button>
+                    </h2>
+                    <div id="collapseDefaultSix" class="accordion-collapse collapse" aria-labelledby="headingDefaultSix"
+                        data-bs-parent="#accordionDefault">
+                        <div class="accordion-body">
+                            Neen, we rekenen u niets aan voor dat bezoek en komen later terug.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- In welke regio leveren jullie ? -->
+                <div class="accordion-item" id="faq-accordion-item">
+                    <h2 class="accordion-header" id="headingDefaultSeven">
+                        <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" id="faq-btn"
+                            data-bs-target="#collapseDefaultSeven" aria-expanded="false" aria-controls="collapseDefaultSeven">
+                            In welke regio leveren jullie ? 
+                        </button>
+                    </h2>
+                    <div id="collapseDefaultSeven" class="accordion-collapse collapse" aria-labelledby="headingDefaultSeven"
+                        data-bs-parent="#accordionDefault">
+                        <div class="accordion-body">
+                            We zijn een lokale Brugse handelaar, leveren in  Groot-Brugge : Brugge centrum en alle deelgemeenten. <br> <br>
+                            Opgelet, we leveren niet in Lissewege en Zeebrugge.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Moet ik een minimale afname doen? -->
+                <div class="accordion-item" id="faq-accordion-item">
+                    <h2 class="accordion-header" id="headingDefaultEight">
+                        <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" id="faq-btn"
+                            data-bs-target="#collapseDefaultEight" aria-expanded="false" aria-controls="collapseDefaultEight">
+                            Moet ik een minimale afname doen? 
+                        </button>
+                    </h2>
+                    <div id="collapseDefaultEight" class="accordion-collapse collapse" aria-labelledby="headingDefaultEight"
+                        data-bs-parent="#accordionDefault">
+                        <div class="accordion-body">
+                            Neen, er is geen minimale afname.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Moet ik een abonnement afsluiten? -->
+                <div class="accordion-item" id="faq-accordion-item">
+                    <h2 class="accordion-header" id="headingDefaultNine">
+                        <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" id="faq-btn"
+                            data-bs-target="#collapseDefaultNine" aria-expanded="false" aria-controls="collapseDefaultNine">
+                            Moet ik een abonnement afsluiten?
+                        </button>
+                    </h2>
+                    <div id="collapseDefaultNine" class="accordion-collapse collapse" aria-labelledby="headingDefaultNine"
+                        data-bs-parent="#accordionDefault">
+                        <div class="accordion-body">
+                            Neen, er is geen abonnement. U kan de samenwerking op ieder ogenblik stopzetten door ons dat te melden, zonder bijkomende kosten. 
+                        </div>
+                    </div>
+                </div>
+
+                 <!-- Hoe kan ik jullie bereiken? -->
+                 <div class="accordion-item" id="faq-accordion-item">
+                    <h2 class="accordion-header" id="headingDefaultTen">
+                        <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" id="faq-btn"
+                            data-bs-target="#collapseDefaultTen" aria-expanded="false" aria-controls="collapseDefaultTen">
+                            Hoe kan ik jullie bereiken?
+                        </button>
+                    </h2>
+                    <div id="collapseDefaultTen" class="accordion-collapse collapse" aria-labelledby="headingDefaultTen"
+                        data-bs-parent="#accordionDefault">
+                        <div class="accordion-body">
+                            <a href="/views/contact.html">Contacteer ons</a>
+                        </div>
+                    </div>
+                </div>
+
+                 <!-- Zijn mijn gegevens veilig bij u? -->
+                 <div class="accordion-item" id="faq-accordion-item">
+                    <h2 class="accordion-header" id="headingDefaultEleven">
+                        <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" id="faq-btn"
+                            data-bs-target="#collapseDefaultEleven" aria-expanded="false" aria-controls="collapseDefaultEleven">
+                            Zijn mijn gegevens veilig bij u?
+                        </button>
+                    </h2>
+                    <div id="collapseDefaultEleven" class="accordion-collapse collapse" aria-labelledby="headingDefaultEleven"
+                        data-bs-parent="#accordionDefault">
+                        <div class="accordion-body">
+                            Jazeker, uw gegevens zitten in ons systeem en worden nooit aan derden doorgegeven. <br>
+                            We beperken ons tot het bijhouden van enkel die gegevens die nodig zijn voor onze dienstverlening aan u en gaan hiermee heel vertrouwelijk om. <br>
+                            We houden ons aan de GDPR regels.
+                        </div>
+                    </div>
+                </div>
+
+                 <!-- Wordt er verwacht dat ik een fooi geef aan de persoon die de delivery uitvoert? -->
+                 <div class="accordion-item" id="faq-accordion-item">
+                    <h2 class="accordion-header" id="headingDefaultTwelve">
+                        <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" id="faq-btn"
+                            data-bs-target="#collapseDefaultTwelve" aria-expanded="false" aria-controls="collapseDefaultTwelve">
+                            Wordt er verwacht dat ik een fooi geef aan de persoon die de delivery uitvoert?
+                        </button>
+                    </h2>
+                    <div id="collapseDefaultTwelve" class="accordion-collapse collapse" aria-labelledby="headingDefaultTwelve"
+                        data-bs-parent="#accordionDefault">
+                        <div class="accordion-body">
+                            Neen helemaal niet, onze delivery butler aanvaardt geen fooien.
+                        </div>
+                    </div>
+                </div>
+
+            </div> <!-- End container -->
+        </section> <!-- End section -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+        crossorigin="anonymous"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
