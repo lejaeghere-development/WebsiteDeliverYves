@@ -33,12 +33,8 @@
 }
 
 .carousel-item img{
-    display: block;
-    width: 100%;
     height: 100%;
-    margin: auto;
     object-fit: cover;
-    overflow: hidden;
 }
 
 .nav-link img{
@@ -215,9 +211,62 @@ font-size: 2.5rem;
     filter: brightness(80%);
 }
 
-.objectDown{
-    object-position: bottom;
+/*FAQ Section*/
+
+#faq-title {
+    font-family: Lato, sans-serif;
+    font-weight: 600;
+    font-size: 2.5rem;
+    color: var(--logobleu);
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    display: flex;
+    justify-content: center;
 }
+
+.container-md {
+    width: 70%;
+}
+
+
+/*
+#faq-btn:not(.collapse) {
+    background-color: #075FAC;
+    color: #ffff;
+}*/
+
+/*
+#faq-btn:not(.collapse) {
+    background-color: #ffff;
+    color: #075FAC;
+}*/
+
+.faq-btn{
+    color: #075FAC;
+}
+
+#faq-accordion-body{
+    color: #212529;
+    font-weight: lighter;
+    font-size: 1rem;
+}
+
+
+/* grijze tekst optie 1
+#faq-accordion-body{
+    color: #212529;
+    background-color: var(--gray);
+    font-weight: lighter;
+    font-size: 1rem;
+}*/
+
+
+#faq-accordion-item{
+    margin-bottom: 0.5rem;
+    border-bottom: 1px solid rgba(0,0,0,.125)
+}
+
+
 /*styling zeer groot toestel*/
 @media only screen and (min-width: 1440px){
 
@@ -274,6 +323,10 @@ font-size: 2.5rem;
         margin-top: 4rem;
         margin-bottom: 2rem;
         font-size: 2.5rem;
+    }
+
+    .objectDown{
+        object-position: bottom;
     }
     
 }
@@ -332,6 +385,10 @@ font-size: 2.5rem;
         margin-top: 3rem;
         margin-bottom: 1.5rem;
         font-size: 2rem;
+    }
+
+    .objectDown{
+        object-position: bottom;
     }
 }
 /*styling middel toestel*/
@@ -510,60 +567,7 @@ font-size: 2.5rem;
 
 }
 
-/*FAQ Section*/
 
-#faq-title {
-    font-family: Lato, sans-serif;
-    font-weight: 600;
-    font-size: 2.5rem;
-    color: var(--logobleu);
-    margin-top: 4rem;
-    margin-bottom: 4rem;
-    display: flex;
-    justify-content: center;
-}
-
-.container-md {
-    width: 70%;
-}
-
-
-/*
-#faq-btn:not(.collapse) {
-    background-color: #075FAC;
-    color: #ffff;
-}*/
-
-/*
-#faq-btn:not(.collapse) {
-    background-color: #ffff;
-    color: #075FAC;
-}*/
-
-#faq-btn{
-    color: #075FAC;
-}
-
-#faq-accordion-body{
-    color: #212529;
-    font-weight: lighter;
-    font-size: 1rem;
-}
-
-
-/* grijze tekst optie 1
-#faq-accordion-body{
-    color: #212529;
-    background-color: var(--gray);
-    font-weight: lighter;
-    font-size: 1rem;
-}*/
-
-
-#faq-accordion-item{
-    margin-bottom: 0.5rem;
-    border-bottom: 1px solid rgba(0,0,0,.125)
-}
 
 
 
