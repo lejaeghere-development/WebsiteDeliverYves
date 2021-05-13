@@ -22,6 +22,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="/css/style.css">
     <link rel="icon" href="/logo/DeliverYvesLogo.svg" type="image/svg+xml" sizes="16x16">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  
     <title>DeliverYves</title>
 </head>
 
@@ -31,7 +32,7 @@
             aria-label="Eleventh navbar example">
             <div class="container-fluid">
                 <a class="navbar-brand" href="../index.html"><img id="logoimage" src="/logo/DeliverYvesLogo.svg" alt=""></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                <button class="navbar-toggler " type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false"
                     aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -39,35 +40,52 @@
 
                 <div class="collapse navbar-collapse" id="navbarsExample09">
                     <ul class="navbar-nav mb-2 mb-lg-0">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" id="navbarAdvancedDropdown" data-bs-toggle="dropdown" role="button" aria-expanded="false" aria-current="page" href="#">
+                                <img class="nav-icon" src="/icons/png/iconfinder_plastic_1118197.png" alt="">
+                                <p class="headingP">Onze dranken</p>
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarAdvancedDropdown">
+                                <li>
+                                    <a href="/views/water.html" class="dropdown-item"></i>Water</a>
+                                </li>
+                                <li>
+                                    <a href="/views/frisdrank.html" class="dropdown-item">Frisdrank</a>
+                                </li>
+                                <li>
+                                    <a href="/views/zuivel.html" class="dropdown-item">Zuivel</a>
+                                </li>
+                                <li>
+                                    <a href="/views/bier.html" class="dropdown-item">Bier</a>
+                                </li>
+                                <li>
+                                    <a href="/views/fruitsap.html" class="dropdown-item">Fruitsap</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="dropdown-item">Brugsch</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="dropdown-item">Bio</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="dropdown-item">Alcoholvrij</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="dropdown-item">Suikervrij</a>
+                                </li>
+                            </ul>
+                        </li>
+                        
                         <li class="nav-item">
                             <a class="nav-link active nav-header" aria-current="page" href="/views/water.html">
                                 <img src="/icons/png/iconfinder_plastic_1118197.png" alt="">
-                                <p class="headingP">Water</p>
+                                <p class="headingP">Over ons</p>
                             </a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link active nav-header" aria-current="page" href="/views/frisdrank.html">
                                 <img src="/icons/png/iconfinder_Coke-botle-cola-soda_3876748.png" alt="">
-                                <p class="headingP">Frisdrank</p>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active nav-header" aria-current="page" href="/views/zuivel.html">
-                                <img src="/icons/png/iconfinder_Milk_5727017.png" alt="">
-                                <p class="headingP" id="melkP">Zuivel</p>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active nav-header" aria-current="page" href="/views/bier.html">
-                                <img src="/icons/png/iconfinder_l-23_3573685.png" alt="">
-                                <p class="headingP">Bier</p>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active nav-header" aria-current="page" href="/views/fruitsap.html">
-                                <img src="/icons/png/iconfinder_splash-juice-orange-mango-vector-fruit_2832288.png"
-                                    alt="">
-                                <p class="headingP">Fruitsap</p>
+                                <p class="headingP">Home</p>
                             </a>
                         </li>
                         <li class="nav-item" id="apero">
