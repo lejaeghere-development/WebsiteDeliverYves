@@ -241,15 +241,17 @@ font-size: 2.5rem;
     color: #075FAC;
 }*/
 
-#faq-btn{
+.faq-btn{
     color: #075FAC;
 }
 
-#faq-accordion-body{
+.faq-accordion-body, ul, li{
     color: #212529;
     font-weight: lighter;
     font-size: 1rem;
 }
+
+
 
 
 /* grijze tekst optie 1
