@@ -134,7 +134,7 @@
     cursor: pointer;
 }
 
-.cta{
+.cta, .submitButton{
     text-align: center;
     border-radius: .1875rem;
     transition: 0.3s ease-in-out;
@@ -146,12 +146,11 @@
     background-color: #8cc97b;
     color: #fff;
     border: 1px solid #8cc97b;
-    ;
     font-size: .9rem;
     margin-top: 28px;
 }
 
-.cta:hover{
+.cta:hover, .submitButton:hover{
     background-color: #abd3a0;
     color: #fff;
     border: 1px solid #abd3a0;
@@ -209,6 +208,7 @@ font-size: 2.5rem;
 
 .panoramaImg{
     filter: brightness(80%);
+    
 }
 
 /*FAQ Section*/
@@ -252,7 +252,7 @@ font-size: 2.5rem;
 }
 
 
-/* grijze tekst optie 1
+/* grijze tekst optie 1F
 #faq-accordion-body{
     color: #212529;
     background-color: var(--gray);
@@ -265,6 +265,14 @@ font-size: 2.5rem;
     margin-bottom: 0.5rem;
     border-bottom: 1px solid rgba(0,0,0,.125)
 }
+
+.LinkConditions{
+    color: #212529;
+    font-weight: 100;
+    margin-left: 10px;
+}
+
+
 
 
 /*styling zeer groot toestel*/
@@ -296,6 +304,16 @@ font-size: 2.5rem;
         margin: auto;
         display: block;
     }
+
+    .submitButton{
+        min-width: 15%;
+        width: 15rem;
+        height: 3rem;
+        text-align: center;
+        margin: auto;
+        display: block;
+    }
+
     #contact{
         display: flex;
         align-items: center;
@@ -328,6 +346,10 @@ font-size: 2.5rem;
     .objectDown{
         object-position: bottom;
     }
+
+    .objectUp{
+        object-position: top;
+    }
     
 }
 
@@ -359,6 +381,16 @@ font-size: 2.5rem;
         margin: auto;
         display: block;
     }
+
+    .submitButton{
+        min-width: 15%;
+        width: 10rem;
+        height: 2.5rem;
+        text-align: center;
+        margin: auto;
+        display: block;
+    }
+
     #contact{
         display: flex;
         align-items: center;
@@ -389,6 +421,10 @@ font-size: 2.5rem;
 
     .objectDown{
         object-position: bottom;
+    }
+
+    .objectUp{
+        object-position: top;
     }
 }
 /*styling middel toestel*/
@@ -421,6 +457,15 @@ font-size: 2.5rem;
         margin: auto;
         display: block;
     }
+
+    .submitButton{
+        min-width: 15%;
+        width: 10rem;
+        height: 2.5rem;
+        text-align: center;
+        margin: auto;
+        display: block;
+    }
     #contact{
         display: flex;
         align-items: center;
@@ -446,6 +491,14 @@ font-size: 2.5rem;
         margin-top: 3rem;
         margin-bottom: 3rem;
         font-size: 2rem;
+    }
+
+    .objectDown{
+        object-position: bottom;
+    }
+
+    .objectUp{
+        object-position: top;
     }
 
 }
@@ -478,6 +531,15 @@ font-size: 2.5rem;
         display: block;
     }
 
+    .submitButton{
+        min-width: 15%;
+        width: 60%;
+        height: 3rem;
+        text-align: center;
+        margin: auto;
+        display: block;
+    }
+
     .imgProduct img, .headerProduct h2, .product-info {
         width: 230px;
     }
@@ -498,6 +560,14 @@ font-size: 2.5rem;
         margin-top: 2rem;
         margin-bottom: 2rem;
         font-size: 2rem;
+    }
+
+    .objectDown{
+        object-position: bottom;
+    }
+
+    .objectUp{
+        object-position: top;
     }
 }
 
@@ -563,6 +633,14 @@ font-size: 2.5rem;
         margin-top: 2rem;
         margin-bottom: 2rem;
         font-size: 2rem;
+    }
+    
+    .objectDown{
+        object-position: bottom;
+    }
+
+    .objectUp{
+        object-position: top;
     }
 
 }
