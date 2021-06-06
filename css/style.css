@@ -331,6 +331,12 @@ font-size: 2.5rem;
     .objectDown{
         object-position: bottom;
     }
+
+    .dropdown-direction{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
     
 }
 
@@ -392,6 +398,12 @@ font-size: 2.5rem;
 
     .objectDown{
         object-position: bottom;
+    }
+
+    .dropdown-direction{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
     }
 
     
@@ -461,9 +473,12 @@ font-size: 2.5rem;
     .dropdown-menu {
         background: #F8F9FA;
         box-shadow: 0 0 5px rgb(0 0 0 / 50%);
+    }
+
+    .dropdown-direction {
         display: flex;
-        flex-wrap: wrap;
-        width: 85%;
+        flex-direction: row;
+        width: 100%;
     }
 
 }
@@ -522,10 +537,41 @@ font-size: 2.5rem;
     .dropdown-menu {
         background: #F8F9FA;
         box-shadow: 0 0 5px rgb(0 0 0 / 50%);
-        display: flex;
-        flex-wrap: wrap;
-        width: 90%;
     }
+
+    .dropdown-item{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .dropdown-direction{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+    }
+
+    .dropdown-menu li {
+        width: 100%;
+        margin: auto;
+    }
+
+    .dropdown-menu li a {
+        text-align: left;
+        padding-left: 30px;
+    }
+    .dropdown-menu li img {
+        margin-left: 55px;
+    }
+
+    .dropdown-menu.show{
+        margin-right: 400px;
+        margin-top: 0;
+    }
+
+    .dropdown-menu.show {
+        top: 5.5rem;
+    }
+
 }
 
 @media only screen and (max-width: 404px){
@@ -605,8 +651,13 @@ font-size: 2.5rem;
     
     .dropdown-menu {
         background: #F8F9FA;
-        width: 70%;
         box-shadow: 0 0 5px rgb(0 0 0 / 50%);
+    }
+
+    .dropdown-direction{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
     }
 
 }
