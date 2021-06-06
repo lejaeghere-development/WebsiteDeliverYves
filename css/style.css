@@ -611,7 +611,7 @@ font-size: 2.5rem;
 
 /**/
 
-.nav-link {
+.dropdown-link {
     display: flex;
     justify-content: start;
     padding: 0px;
@@ -632,13 +632,13 @@ font-size: 2.5rem;
     display: inline;
 }
 
-.dropdown-menu li {
+.dropdown-onze-dranken li {
     display: inline-flex;
     padding: 10px 0 0 30px;
     align-items: center;
 }
 
-.dropdown-menu {
+.dropdown-onze-dranken {
     background: #F8F9FA;
     box-shadow: 0 0 5px rgb(0 0 0 / 50%);
     min-height: 10rem;
@@ -654,19 +654,13 @@ font-size: 2.5rem;
     display: flex;
 }
 
-ul .dropdown-menu{
+ul .dropdown-onze-dranken{
     display: flex;
     justify-content: space-evenly;
 }
 
 
-.dropdown-menu li {
-    border: 1px solid green;
-    display: flex;
-
-}
-
-.nav-link {
+.dropdown-link {
     display: inline-flex;
     flex-direction: column;
 }
