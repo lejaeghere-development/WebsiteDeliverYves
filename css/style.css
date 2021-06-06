@@ -211,13 +211,10 @@ font-size: 2.5rem;
     
 }
 
-.Angled{
+ .Angled{
     transform: rotate(40deg);
-    font-size: 2.8rem !important;
     position: absolute;
-    right: -170px;
-    top: -220px;
-}
+} 
 
 /*FAQ Section*/
 
@@ -236,19 +233,6 @@ font-size: 2.5rem;
     width: 70%;
 }
 
-
-/*
-#faq-btn:not(.collapse) {
-    background-color: #075FAC;
-    color: #ffff;
-}*/
-
-/*
-#faq-btn:not(.collapse) {
-    background-color: #ffff;
-    color: #075FAC;
-}*/
-
 #faq-btn{
     color: #075FAC;
 }
@@ -258,16 +242,6 @@ font-size: 2.5rem;
     font-weight: lighter;
     font-size: 1rem;
 }
-
-
-/* grijze tekst optie 1F
-#faq-accordion-body{
-    color: #212529;
-    background-color: var(--gray);
-    font-weight: lighter;
-    font-size: 1rem;
-}*/
-
 
 #faq-accordion-item{
     margin-bottom: 0.5rem;
@@ -358,6 +332,12 @@ font-size: 2.5rem;
     .objectUp{
         object-position: top;
     }
+
+    .Angled{
+        font-size: 2.8rem !important;
+        right: -170px;
+        top: -300px;
+    } 
     
 }
 
@@ -434,6 +414,12 @@ font-size: 2.5rem;
     .objectUp{
         object-position: top;
     }
+
+    .Angled{
+        font-size: 2.5rem !important;
+        right: -170px;
+        top: -220px;
+    } 
     
 }
 /*styling middel toestel*/
@@ -510,6 +496,12 @@ font-size: 2.5rem;
         object-position: top;
     }
 
+    .Angled{
+        font-size: 2.2rem !important;
+        right: -140px;
+        top: -130px;
+    } 
+
 }
 /*styling klein toestel*/
 @media only screen and (max-width: 767px) and (min-width: 405px){ 
@@ -578,6 +570,12 @@ font-size: 2.5rem;
     .objectUp{
         object-position: top;
     }
+
+    .Angled{
+        font-size: 1.7rem !important;
+        right: -80px;
+        top: -120px;
+    } 
 }
 
 @media only screen and (max-width: 404px){
@@ -652,6 +650,11 @@ font-size: 2.5rem;
         object-position: top;
     }
 
+    .Angled{
+        font-size: 1rem !important;
+        right: -50px;
+        top: -65px;
+    } 
 }
 
 
