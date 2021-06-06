@@ -567,11 +567,9 @@ font-size: 2.5rem;
     }
 
     .dropdown-menu.show{
-        margin-top: 0;
-    }
-
-    .dropdown-menu.show {
-        top: 5.5rem;
+        width: 50%;
+        position: absolute;
+        margin: 0;
     }
 
 }
