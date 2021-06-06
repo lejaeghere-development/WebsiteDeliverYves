@@ -617,9 +617,11 @@ font-size: 2.5rem;
     padding: 0px;
 }
 
-.dropdown-toggle::after{
-    margin-top: 0.9rem;
-    margin-left: 0.5rem;
+.dropdown-toggle::after {
+    position:relative;
+    left: 7.6rem;
+    top: -30px;
+    width: 3px;
 }
 
 
@@ -639,10 +641,34 @@ font-size: 2.5rem;
 .dropdown-menu {
     background: #F8F9FA;
     box-shadow: 0 0 5px rgb(0 0 0 / 50%);
-    min-width: 50rem;
     min-height: 10rem;
     padding-top: 2rem;
     padding-bottom: 2rem;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+}
+
+.first-row-dropdown, .second-row-dropdown{
+    border: 1px solid blue;
+    display: flex;
+}
+
+ul .dropdown-menu{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.dropdown-menu li {
+    border: 1px solid green;
+    display: flex;
+
+}
+
+.nav-link {
+    display: inline-flex;
+    flex-direction: column;
 }
 
 
