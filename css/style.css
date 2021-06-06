@@ -211,6 +211,14 @@ font-size: 2.5rem;
     
 }
 
+.Angled{
+    transform: rotate(40deg);
+    font-size: 2.8rem !important;
+    position: absolute;
+    right: -170px;
+    top: -220px;
+}
+
 /*FAQ Section*/
 
 #faq-title {
@@ -426,6 +434,7 @@ font-size: 2.5rem;
     .objectUp{
         object-position: top;
     }
+    
 }
 /*styling middel toestel*/
 @media only screen and (max-width: 1023px) and (min-width: 768px){
