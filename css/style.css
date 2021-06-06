@@ -229,6 +229,8 @@ font-size: 2.5rem;
 }
 
 
+
+
 /*
 #faq-btn:not(.collapse) {
     background-color: #075FAC;
@@ -655,9 +657,14 @@ font-size: 2.5rem;
     display: flex;
 }
 
-.dropdown-menu li{
+.dropdown-menu li {
+   
+}
+
+.flex-row{
     display: flex;
     flex-direction: row;
+    width: 100%;
 }
 
 
