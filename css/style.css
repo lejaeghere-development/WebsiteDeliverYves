@@ -411,6 +411,10 @@ font-size: 2.5rem;
 /*styling middel toestel*/
 @media only screen and (max-width: 1023px) and (min-width: 768px){
 
+    .navbar-nav{
+        justify-content: space-evenly;
+    }
+
     .nav-item{
         margin-right: 2rem;
         min-width: 70px;
@@ -418,7 +422,6 @@ font-size: 2.5rem;
 
     .nav-link img{
         height: 30px;
-        display: none;
     }
     .nav-link img:hover{
         height: 40px;
@@ -481,7 +484,7 @@ font-size: 2.5rem;
         width: 100%;
     }
 
-
+   
 }
 /*styling klein toestel*/
 @media only screen and (max-width: 767px) and (min-width: 405px){ 
@@ -560,14 +563,15 @@ font-size: 2.5rem;
         text-align: left;
         padding-left: 30px;
     }
-    .dropdown-menu li img {
-        margin-left: 55px;
+    
+  
+    .dropdown-menu.show{
+        position: absolute;
+        width: 50%;
     }
 
-    .dropdown-menu.show{
-        width: 50%;
-        position: absolute;
-        margin: 0;
+    ul.dropdown-menu.show{
+        top: 3rem;
     }
 
 }
@@ -700,14 +704,14 @@ font-size: 2.5rem;
 
 /*Drop down onze dranken*/
 .dropdown-menu.show {
-    top: 5.5rem;
+    top: 6rem;
     box-shadow: 0 0 5px rgb(0 0 0 / 50%);
     background-color: #F8F9FA;
     display: flex;
 }
 
 .dropdown-menu li {
-   
+   margin: 2px;
 }
 
 .flex-row{
