@@ -418,7 +418,6 @@ font-size: 2.5rem;
 
     .nav-link img{
         height: 30px;
-        display: none;
     }
     .nav-link img:hover{
         height: 40px;
@@ -479,6 +478,10 @@ font-size: 2.5rem;
         display: flex;
         flex-direction: row;
         width: 100%;
+    }
+
+    .navbar-nav {
+        justify-content: space-evenly;
     }
 
 }
@@ -564,7 +567,6 @@ font-size: 2.5rem;
     }
 
     .dropdown-menu.show{
-        margin-right: 400px;
         margin-top: 0;
     }
 
@@ -706,10 +708,6 @@ font-size: 2.5rem;
     box-shadow: 0 0 5px rgb(0 0 0 / 50%);
     background-color: #F8F9FA;
     display: flex;
-}
-
-.dropdown-menu li {
-   
 }
 
 .flex-row{
