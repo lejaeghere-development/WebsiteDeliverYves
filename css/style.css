@@ -617,11 +617,9 @@ font-size: 2.5rem;
     padding: 0px;
 }
 
-.dropdown-toggle::after {
-    position:relative;
-    left: 7.6rem;
-    top: -30px;
-    width: 3px;
+.dropdown-toggle::after{
+    margin-top: 0.9rem;
+    margin-left: 0.5rem;
 }
 
 
@@ -641,9 +639,11 @@ font-size: 2.5rem;
 .dropdown-onze-dranken {
     background: #F8F9FA;
     box-shadow: 0 0 5px rgb(0 0 0 / 50%);
+    min-width: 50rem;
     min-height: 10rem;
     padding-top: 2rem;
     padding-bottom: 2rem;
+<<<<<<< HEAD
     border: 1px solid red;
     display: flex;
     flex-direction: column;
@@ -663,6 +663,8 @@ ul .dropdown-onze-dranken{
 .dropdown-link {
     display: inline-flex;
     flex-direction: column;
+=======
+>>>>>>> parent of 8921dea (nav)
 }
 
 
