@@ -531,11 +531,6 @@ font-size: 2.5rem;
         margin-bottom: 2rem;
         font-size: 2rem;
     }
-
-    .dropdown-menu li {
-        display: flex;
-        padding: 10px 0 0 30px;
-    }
     
     .dropdown-menu {
         background: #F8F9FA;
@@ -554,6 +549,8 @@ font-size: 2.5rem;
     }
 
     .dropdown-menu li {
+        display: flex;
+        padding: 10px 0 0 30px;
         width: 100%;
         margin: auto;
     }
@@ -563,7 +560,7 @@ font-size: 2.5rem;
         padding-left: 30px;
     }
     .dropdown-menu li img {
-        margin-left: 55px;
+        margin-left: 10px;
     }
 
     .dropdown-menu.show{
