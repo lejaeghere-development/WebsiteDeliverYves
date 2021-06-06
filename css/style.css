@@ -481,6 +481,7 @@ font-size: 2.5rem;
         width: 100%;
     }
 
+
 }
 /*styling klein toestel*/
 @media only screen and (max-width: 767px) and (min-width: 405px){ 
@@ -564,12 +565,9 @@ font-size: 2.5rem;
     }
 
     .dropdown-menu.show{
-        margin-right: 400px;
-        margin-top: 0;
-    }
-
-    .dropdown-menu.show {
-        top: 5.5rem;
+        width: 50%;
+        position: absolute;
+        margin: 0;
     }
 
 }
