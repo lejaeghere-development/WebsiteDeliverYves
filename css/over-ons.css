@@ -1,6 +1,7 @@
 .starter-template{
     padding: 3rem 1.5rem;
     text-align: center;
+    background-image: url('../props/SVG/DeliverYves_patroon_blauw_basis.svg');
 }
 
 #main{
@@ -66,32 +67,25 @@
     color: #00203F;
 }
 
-.starter-template{
-    min-height: 25rem;
-    background-image: url('../props/SVG/DeliverYves_patroon_blauw_basis.svg');
-    margin-bottom: 90rem;
-}
 
 .group-img-overlay{
     position: absolute;
     width: 66%;
-    top: 48%;
-    left: 17.5%; 
+    left: 17%; 
 }
 
-.group-img-overlay h4, p{
+.lead h4, p{
     color: #00203F;
 }
 
-.group-img-overlay h4::first-letter{
+.lead h4::first-letter{
     font-size: 200%;
     color: #075fac;;
 }
 
 .lead{
-    top: 130%;
     text-align: justify;
-    padding: 0 2rem 2rem 2rem;
+    width: 80%;
 }
 
 
@@ -103,6 +97,109 @@
 .titel-team h4{
       text-align: center;
   }
+
+.container-empty{
+    border: 1x solid green;
+}
+
+
+/** Media Queries **/
+
+/*styling zeer groot toestel*/
+@media only screen and (min-width: 1440px){
+
+    .container-header{
+        margin-bottom: 15rem;
+    }
+
+    .starter-template{
+        min-height: 30rem;
+    }
+
+
+    .group-img-overlay{
+        top: 48%;
+    }
+    
+}
+
+/*styling groot toestel*/
+@media only screen and (max-width: 1440px) and (min-width: 1024px){
+    .container-header{
+        margin-bottom: 20rem;
+    }
+
+    .starter-template{
+        min-height: 20rem;
+    }
+
+    .group-img-overlay{
+        top: 48%;
+    }
+    
+}
+/*styling middel toestel*/
+@media only screen and (max-width: 1024px) and (min-width: 768px){
+
+    .container-header{
+        margin-bottom: 11rem;
+    }
+
+    .starter-template{
+        min-height: 20rem;
+    }
+
+    .group-img-overlay{
+        top: 38%;
+    }
+
+    
+}
+/*styling klein toestel*/
+@media only screen and (max-width: 767px) and (min-width: 405px){ 
+
+    .container-header{
+        margin-bottom: 9rem;
+    }
+
+    .starter-template{
+        min-height: 15rem;
+    }
+
+    .lead{
+        font-size: 1rem;
+        text-align: left;
+    }
+
+    .lead h4{
+        font-size: 1rem;
+    }
+    
+}
+
+
+@media only screen and (max-width: 404px){
+
+    .container-header{
+        margin-bottom: 1rem;
+    }
+
+    .starter-template{
+        min-height: 15rem;
+    }
+
+    .lead{
+        font-size: 1rem;
+        text-align: left;
+    }
+
+    .lead h4{
+        font-size: 1rem;
+    }
+   
+
+}
+
 
 
 
