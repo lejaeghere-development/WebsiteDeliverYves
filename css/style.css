@@ -235,7 +235,8 @@ font-size: 2.5rem;
     background-repeat: no-repeat;
     background-size: 2000px 1500px;
     background-position: 50%;
-    border-radius: 1rem;
+    border-radius: .1875rem;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
 }
 
 .container-md {
@@ -246,7 +247,7 @@ font-size: 2.5rem;
     color: #075FAC;
 }
 
-#faq-accordion-body{
+.faq-accordion-body, ul, li{
     color: #212529;
     font-weight: lighter;
     font-size: 1rem;
@@ -257,12 +258,80 @@ font-size: 2.5rem;
     border-bottom: 1px solid rgba(0,0,0,.125)
 }
 
+.dropdown-link, .dropdown-item:hover{
+  color: var(--darkbleu);
+  text-decoration: none; 
+  width: 100%;
+  height: 100%;
+}
+
+.dropdown-p{
+    color: var(--darkbleu);
+    text-align: center;
+    width: 100%;
+}
 .LinkConditions{
     color: #212529;
     font-weight: 100;
     margin-left: 10px;
 }
 
+.dropdown-item-specials{
+    text-align: center;
+    background-color: var(--logogreen);
+    color: white;
+}
+
+.dropdown-item:hover{
+    text-align: center;
+}
+
+.dropdown-link {
+    display: flex;
+    justify-content: start;
+    padding: 0px;
+}
+
+/*Dropdown*/
+.dropdown-toggle::after{
+    margin-top: 0.9rem;
+    margin-left: 0.5rem;
+    position: relative;
+    width: 3px;
+    left: 7.5rem;
+    top: -3rem;
+}
+
+.nav-onze-dranken{
+    margin-top: 20px;
+    display: inline;
+}
+
+.dropdown-onze-dranken li {
+    display: inline-flex;
+    padding: 10px 0 0 30px;
+    align-items: center;
+}
+
+
+.nav-link {
+    display: inline-flex;
+    flex-direction: column;
+}
+
+/*Drop down onze dranken*/
+.dropdown-menu.show {
+    top: 6rem;
+    box-shadow: 0 0 5px rgb(0 0 0 / 50%);
+    background-color: #F8F9FA;
+    display: flex;
+}
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+}
 
 
 
@@ -279,6 +348,7 @@ font-size: 2.5rem;
     .nav-link img:hover{
         height: 50px;
     }
+
 
     #logoimage{
         padding-bottom: 5px;
@@ -338,6 +408,15 @@ font-size: 2.5rem;
         object-position: bottom;
     }
 
+    .dropdown-direction{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+    .dropdown-menu.show{
+        width: 800px;
+        min-height: 150px;
+    }
     .objectUp{
         object-position: top;
     }
@@ -348,6 +427,23 @@ font-size: 2.5rem;
         bottom: 370px;
         width: 300px;
     } 
+
+    .dropdown-item-specials{
+        padding: 0.8rem;
+    }
+
+    .flex-row:first-child{
+        margin-left: 10px;
+    }
+    
+    .flex-row:last-child{
+        margin-right: 10px;
+    }
+
+    .flex-row{
+        width: 100%;
+        margin: 5px;
+    }
     
 }
 
@@ -421,6 +517,12 @@ font-size: 2.5rem;
         object-position: bottom;
     }
 
+    .dropdown-direction{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+    
     .objectUp{
         object-position: top;
     }
@@ -431,15 +533,35 @@ font-size: 2.5rem;
         bottom: 290px;
         width: 250px;
     } 
+
+    .dropdown-item-specials{
+        padding: 0.8rem;
+    }
+
+    .flex-row:first-child{
+        margin-left: 10px;
+    }
+    
+    .flex-row:last-child{
+        margin-right: 10px;
+    }
+
+    .flex-row{
+        width: 100%;
+        margin: 5px;
+    }
     
 }
 /*styling middel toestel*/
 @media only screen and (max-width: 1024px) and (min-width: 768px){
 
+    .navbar-nav{
+        justify-content: space-evenly;
+    }
+
     .nav-item{
         margin-right: 2rem;
         min-width: 70px;
-
     }
 
     .nav-link img{
@@ -499,6 +621,25 @@ font-size: 2.5rem;
         font-size: 1.7rem;
     }
 
+    .dropdown-menu li {
+        display: flex;
+    }
+    
+    .dropdown-menu {
+        background: #F8F9FA;
+        box-shadow: 0 0 5px rgb(0 0 0 / 50%);
+    }
+
+    .dropdown-direction {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .navbar-nav {
+        justify-content: space-evenly;
+    }
+    
     .objectDown{
         object-position: bottom;
     }
@@ -514,6 +655,24 @@ font-size: 2.5rem;
         width: 180px;
     } 
 
+    .dropdown-item-specials{
+        padding: 0.8rem;
+    }
+
+    .flex-row:first-child{
+        margin-left: 10px;
+    }
+    
+    .flex-row:last-child{
+        margin-right: 10px;
+    }
+
+    .flex-row{
+        width: 100%;
+    }
+
+
+
 }
 /*styling klein toestel*/
 @media only screen and (max-width: 767px) and (min-width: 405px){ 
@@ -524,14 +683,10 @@ font-size: 2.5rem;
 
     .nav-link img{
         height: 30px;
+        display: none;
     }
     .nav-link img:hover{
         height: 40px;
-    }
-
-    #logoimage{
-        padding-bottom: 5px;
-        height: 100px;
     }
 
     .cta{
@@ -574,6 +729,36 @@ font-size: 2.5rem;
         margin-bottom: 2rem;
         font-size: 1.7rem;
     }
+    
+    .dropdown-menu {
+        background: #F8F9FA;
+        box-shadow: 0 0 5px rgb(0 0 0 / 50%);
+    }
+
+
+    .dropdown-direction{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+    }
+
+    .dropdown-menu li {
+        display: flex;
+    }
+    .dropdown-menu li img {
+        margin-left: 10px;
+        
+    }
+
+    .dropdown-menu.show{
+        position: absolute;
+        width: 70%;
+    }
+
+    ul.dropdown-menu.show{
+        top: 3rem;
+    }
+
 
     .objectDown{
         object-position: bottom;
@@ -586,6 +771,18 @@ font-size: 2.5rem;
     .Angled{
         display: none;
     } 
+
+    .flex-row{
+       margin-left: 25%;
+       margin-top: 5px;
+       width: 80%;
+    }
+
+    .types{
+        padding: 0;
+        margin-left: 20%;
+    }
+
 }
 
 @media only screen and (max-width: 404px){
@@ -596,9 +793,15 @@ font-size: 2.5rem;
 
     .nav-link img{
         height: 30px;
+        display: none;
     }
+
     .nav-link img:hover{
         height: 40px;
+    }
+
+    .nav-link p{
+        text-align: left;
     }
 
     .navbar-brand {
@@ -656,6 +859,21 @@ font-size: 2.5rem;
         object-position: bottom;
     }
 
+    .dropdown-menu li {
+        display: flex;
+    }
+    
+    .dropdown-menu {
+        background: #F8F9FA;
+        box-shadow: 0 0 5px rgb(0 0 0 / 50%);
+    }
+
+    .dropdown-direction{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
     .objectUp{
         object-position: top;
     }
@@ -674,4 +892,16 @@ font-size: 2.5rem;
         padding-bottom: 8rem;
     }
 
+    .flex-row{
+        margin-left: 10%;
+        margin-top: 5px;
+     }
+
+     .flex-row{
+        width: 80%;
+
+    }
 }
+
+
+
