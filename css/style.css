@@ -80,7 +80,7 @@
   .featurette-heading{
     line-height: 1;
     letter-spacing: -.05rem;
-    font-size: 50px;
+    font-weight: 300;
 }
 
 .contact-form{
@@ -134,7 +134,7 @@
     cursor: pointer;
 }
 
-.cta{
+.cta, .submitButton{
     text-align: center;
     border-radius: .1875rem;
     transition: 0.3s ease-in-out;
@@ -146,12 +146,11 @@
     background-color: #8cc97b;
     color: #fff;
     border: 1px solid #8cc97b;
-    ;
     font-size: .9rem;
     margin-top: 28px;
 }
 
-.cta:hover{
+.cta:hover, .submitButton:hover{
     background-color: #abd3a0;
     color: #fff;
     border: 1px solid #abd3a0;
@@ -162,6 +161,8 @@
 }
 .lead{
     color: var(--darkbleu);
+    font-size: 1.25rem;
+    font-weight: 200;
 }
 .white{
     color: white;
@@ -209,7 +210,13 @@ font-size: 2.5rem;
 
 .panoramaImg{
     filter: brightness(80%);
+    
 }
+
+ .Angled{
+    transform: rotate(10deg);
+    position: absolute;
+} 
 
 /*FAQ Section*/
 
@@ -217,33 +224,25 @@ font-size: 2.5rem;
     font-family: Lato, sans-serif;
     font-weight: 600;
     font-size: 2.5rem;
-    color: var(--logobleu);
-    margin-top: 4rem;
+    color: white;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
     margin-bottom: 4rem;
+    margin-top: 4rem;
     display: flex;
     justify-content: center;
+    background-image: url(../props/SVG/DeliverYves_patroon_blauw_groot.svg);
+    background-repeat: no-repeat;
+    background-size: 2000px 1500px;
+    background-position: 50%;
+    border-radius: 1rem;
 }
 
 .container-md {
     width: 70%;
 }
 
-
-
-
-/*
-#faq-btn:not(.collapse) {
-    background-color: #075FAC;
-    color: #ffff;
-}*/
-
-/*
-#faq-btn:not(.collapse) {
-    background-color: #ffff;
-    color: #075FAC;
-}*/
-
-.faq-btn{
+#faq-btn{
     color: #075FAC;
 }
 
@@ -252,16 +251,6 @@ font-size: 2.5rem;
     font-weight: lighter;
     font-size: 1rem;
 }
-
-
-/* grijze tekst optie 1
-#faq-accordion-body{
-    color: #212529;
-    background-color: var(--gray);
-    font-weight: lighter;
-    font-size: 1rem;
-}*/
-
 
 #faq-accordion-item{
     margin-bottom: 0.5rem;
@@ -278,6 +267,13 @@ font-size: 2.5rem;
 .dropdown-p{
     color: var(--darkbleu);
 }
+.LinkConditions{
+    color: #212529;
+    font-weight: 100;
+    margin-left: 10px;
+}
+
+
 
 
 /*styling zeer groot toestel*/
@@ -310,6 +306,16 @@ font-size: 2.5rem;
         margin: auto;
         display: block;
     }
+
+    .submitButton{
+        min-width: 15%;
+        width: 15rem;
+        height: 3rem;
+        text-align: center;
+        margin: auto;
+        display: block;
+    }
+
     #contact{
         display: flex;
         align-items: center;
@@ -325,7 +331,7 @@ font-size: 2.5rem;
     }
 
     .headerProduct h2{
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
     
 
@@ -336,7 +342,7 @@ font-size: 2.5rem;
     .featurette-heading{
         margin-top: 4rem;
         margin-bottom: 2rem;
-        font-size: 2.5rem;
+        font-size: 2.0rem;
     }
 
     .objectDown{
@@ -352,6 +358,17 @@ font-size: 2.5rem;
         width: 800px;
         height: 200px;
     }
+    .objectUp{
+        object-position: top;
+    }
+
+    .Angled{
+        font-size: 2.8rem !important;
+        left: -100px;
+        bottom: 370px;
+        width: 300px;
+    } 
+    
 }
 
 /*styling groot toestel*/
@@ -382,6 +399,16 @@ font-size: 2.5rem;
         margin: auto;
         display: block;
     }
+
+    .submitButton{
+        min-width: 15%;
+        width: 10rem;
+        height: 2.5rem;
+        text-align: center;
+        margin: auto;
+        display: block;
+    }
+
     #contact{
         display: flex;
         align-items: center;
@@ -401,13 +428,13 @@ font-size: 2.5rem;
       }
 
     .headerProduct h2 {
-        font-size: 1.3rem;
+        font-size: 1.1rem;
     }
 
     .featurette-heading{
         margin-top: 3rem;
         margin-bottom: 1.5rem;
-        font-size: 2rem;
+        font-size: 1.7rem;
     }
 
     .objectDown{
@@ -419,13 +446,21 @@ font-size: 2.5rem;
         flex-direction: row;
         width: 100%;
     }
-
-    .dropdown-menu.show{
-
+    
+    .objectUp{
+        object-position: top;
     }
+
+    .Angled{
+        font-size: 2.5rem !important;
+        left: -100px;
+        bottom: 290px;
+        width: 250px;
+    } 
+    
 }
 /*styling middel toestel*/
-@media only screen and (max-width: 1023px) and (min-width: 768px){
+@media only screen and (max-width: 1024px) and (min-width: 768px){
 
     .navbar-nav{
         justify-content: space-evenly;
@@ -457,6 +492,15 @@ font-size: 2.5rem;
         margin: auto;
         display: block;
     }
+
+    .submitButton{
+        min-width: 15%;
+        width: 10rem;
+        height: 2.5rem;
+        text-align: center;
+        margin: auto;
+        display: block;
+    }
     #contact{
         display: flex;
         align-items: center;
@@ -468,7 +512,7 @@ font-size: 2.5rem;
     }
 
     .headerProduct h2{
-        font-size: 1.3rem;
+        font-size: 1.1rem;
     }
 
     #myCarousel{
@@ -481,7 +525,7 @@ font-size: 2.5rem;
     .featurette-heading{
         margin-top: 3rem;
         margin-bottom: 3rem;
-        font-size: 2rem;
+        font-size: 1.7rem;
     }
 
     .dropdown-menu li {
@@ -503,10 +547,21 @@ font-size: 2.5rem;
     .navbar-nav {
         justify-content: space-evenly;
     }
-
-    .dropdown-menu.show{
-
+    
+    .objectDown{
+        object-position: bottom;
     }
+
+    .objectUp{
+        object-position: top;
+    }
+
+    .Angled{
+        font-size: 2.2rem !important;
+        left: -80px;
+        bottom: 200px;
+        width: 180px;
+    } 
 
 }
 /*styling klein toestel*/
@@ -534,12 +589,21 @@ font-size: 2.5rem;
         display: block;
     }
 
+    .submitButton{
+        min-width: 15%;
+        width: 60%;
+        height: 3rem;
+        text-align: center;
+        margin: auto;
+        display: block;
+    }
+
     .imgProduct img, .headerProduct h2, .product-info {
         width: 230px;
     }
 
     .headerProduct h2{
-        font-size: 1.5rem;
+        font-size: 1.1rem;
     }
 
     #myCarousel{
@@ -553,7 +617,7 @@ font-size: 2.5rem;
     .featurette-heading{
         margin-top: 2rem;
         margin-bottom: 2rem;
-        font-size: 2rem;
+        font-size: 1.7rem;
     }
     
     .dropdown-menu {
@@ -596,6 +660,18 @@ font-size: 2.5rem;
         top: 3rem;
     }
 
+
+    .objectDown{
+        object-position: bottom;
+    }
+
+    .objectUp{
+        object-position: top;
+    }
+
+    .Angled{
+        display: none;
+    } 
 }
 
 @media only screen and (max-width: 404px){
@@ -663,9 +739,13 @@ font-size: 2.5rem;
     }
 
     .featurette-heading{
-        margin-top: 2rem;
+        margin-top: 1.5rem;
         margin-bottom: 2rem;
-        font-size: 2rem;
+        font-size: 1.6rem;
+    }
+    
+    .objectDown{
+        object-position: bottom;
     }
 
     .dropdown-menu li {
@@ -682,6 +762,24 @@ font-size: 2.5rem;
         display: flex;
         flex-direction: column;
         width: 100%;
+    }
+
+    .objectUp{
+        object-position: top;
+    }
+
+    .Angled{
+        display: none;
+    } 
+    .headerProduct h2{
+        font-size: 1.1rem;
+    }
+    .carousel-caption {
+        padding-bottom: 0rem;
+    }
+
+    #carousel-padding-bottom{
+        padding-bottom: 8rem;
     }
 
 }
@@ -741,15 +839,3 @@ font-size: 2.5rem;
     flex-direction: row;
     width: 100%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
