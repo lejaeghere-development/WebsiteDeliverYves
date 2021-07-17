@@ -1,5 +1,4 @@
 .starter-template{
-    padding: 3rem 1.5rem;
     text-align: center;
     background-image: url('../props/SVG/DeliverYves_patroon_blauw_basis.svg');
 }
@@ -70,8 +69,7 @@
 
 .group-img-overlay{
     position: absolute;
-    width: 66%;
-    left: 17%; 
+    
 }
 
 .lead h4, p{
@@ -104,53 +102,96 @@
 
 
 /** Media Queries **/
+/*styling extreem groot toestel*/
+@media only screen and (min-width: 1800px){
 
-/*styling zeer groot toestel*/
-@media only screen and (min-width: 1440px){
-
-    .container-header{
-        margin-bottom: 19rem;
-    }
-
-    .starter-template{
-        min-height: 30rem;
-    }
-
-
-    .group-img-overlay{
-        top: 48%;
-    }
-    
-}
-
-/*styling groot toestel*/
-@media only screen and (max-width: 1440px) and (min-width: 1024px){
     .container-header{
         margin-bottom: 20rem;
     }
 
     .starter-template{
-        min-height: 20rem;
+        min-height: 30rem;
+        padding: 3rem 1.5rem;
+    }
+
+
+    .group-img-overlay{
+        top: 48%;
+        width: 1000px; 
+    }
+    
+}
+/*styling zeer groot toestel*/
+@media only screen and (max-width: 1800px) and (min-width: 1400px){
+    .container-header{
+        margin-bottom: 20rem;
+    }
+
+    .starter-template{
+        min-height: 30rem;
+        padding: 3rem 1.5rem;
     }
 
     .group-img-overlay{
         top: 48%;
+        width: 1000px; 
     }
     
 }
-/*styling middel toestel*/
-@media only screen and (max-width: 1024px) and (min-width: 768px){
 
+/*styling groot toestel*/
+@media only screen and (max-width: 1399px) and (min-width: 1200px){
+    .container-header{
+        margin-bottom: 13rem;
+    }
+
+    .starter-template{
+        height: 30rem;
+        padding: 4rem 1.5rem;
+    }
+
+    .group-img-overlay{
+        top: 48%;
+        width: 850px;
+        left: auto;
+    }
+
+}
+
+/*styling groot toestel*/
+@media only screen and (max-width: 1199px) and (min-width: 990px){
     .container-header{
         margin-bottom: 11rem;
     }
 
     .starter-template{
-        min-height: 20rem;
+        height: 30rem;
+        padding: 4rem 1.5rem;
     }
 
     .group-img-overlay{
-        top: 38%;
+        top: 45%;
+        width: 700px;
+        left: auto;
+    }
+
+}
+
+/*styling middel-klein toestel*/
+@media only screen and (max-width: 991px) and (min-width: 768px){
+
+    .container-header{
+        margin-bottom: 10rem;
+    }
+
+    .starter-template{
+        min-height: 20rem;
+        padding: 4rem 3;
+    }
+
+    .group-img-overlay{
+        top: 35%;
+        width: 550px;
     }
 
     
@@ -159,11 +200,12 @@
 @media only screen and (max-width: 767px) and (min-width: 405px){ 
 
     .container-header{
-        margin-bottom: 9rem;
+        margin-bottom: 10rem;
     }
 
     .starter-template{
         min-height: 15rem;
+        padding: 4rem 3;
     }
 
     .lead{
@@ -175,17 +217,23 @@
         font-size: 1rem;
     }
     
+    .group-img-overlay{
+        top: 25%;
+        right: calc(50vw - 150px);
+        width: 300px;
+    }
 }
 
 
 @media only screen and (max-width: 404px){
 
     .container-header{
-        margin-bottom: 1rem;
+        margin-bottom: 10rem;
     }
 
     .starter-template{
-        min-height: 15rem;
+        min-height: 10rem;
+        padding: 4rem 3;
     }
 
     .lead{
@@ -197,7 +245,11 @@
         font-size: 1rem;
     }
    
-
+    .group-img-overlay{
+        top: 25%;
+        right: calc(50vw - 125px);
+        width: 250px;
+    }
 }
 
 
