@@ -12,6 +12,12 @@
     font-family: 'Lato', sans-serif;
 }
 
+hr{
+    background-color: var(--darkbleu);
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
 #navigation-nav{
     min-height: 170px;
 }
@@ -279,6 +285,18 @@ font-size: 2.5rem;
     text-align: center;
     background-color: var(--logogreen);
     color: white;
+    padding: 0;
+    width: 100px;
+    margin: auto;
+}
+
+.dropdown-item-specials:hover{
+    text-align: center;
+    background-color: #e9ecef;
+    color: var(--darkbleu);
+    padding: 0;
+    width: 100px;
+    margin: auto;
 }
 
 .dropdown-item:hover{
@@ -338,7 +356,16 @@ font-size: 2.5rem;
 }
 
 
+.h-2 li a{
+    padding: 0;
+    width: 100px;
+    margin: auto;
+}
 
+.h-2{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
 
 
 /*styling zeer groot toestel*/
@@ -451,6 +478,8 @@ font-size: 2.5rem;
         width: 100%;
         margin: 5px;
     }
+
+
     
 }
 
