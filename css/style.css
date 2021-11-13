@@ -367,6 +367,43 @@ font-size: 2.5rem;
     margin-bottom: 15px;
 }
 
+.ActionButtons{
+    position: absolute;
+    width: 90% !important;
+    right: 5%;
+    bottom:   10px;  
+}
+
+.btn-outline-primary{
+    border-color: var(--logogreen);
+    background-color: var(--logogreen);
+    color: white;
+}
+
+.callToActionDiv{
+    background-color: var(--logolightgreen);
+}
+
+
+.callToActionDiv h1{
+    color: white;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+
+a{
+   text-decoration: none; 
+}
+
+.actionButtonHeader{
+    position: relative;
+}
+
 
 /*styling zeer groot toestel*/
 @media only screen and (min-width: 1440px){
@@ -392,7 +429,7 @@ font-size: 2.5rem;
     .cta{
         min-width: 15%;
         width: 15rem;
-        height: 3rem;
+        min-height: 3rem;
         text-align: center;
         padding-top: 10px;
         margin: auto;
@@ -414,7 +451,7 @@ font-size: 2.5rem;
     }
 
     #myCarousel{
-        height: 600px;
+        height: 500px;
     }
 
     .imgProduct img, .headerProduct h2, .product-info {
@@ -458,7 +495,7 @@ font-size: 2.5rem;
     .Angled{
         font-size: 2.8rem !important;
         left: -100px;
-        bottom: 370px;
+        bottom: 300px;
         width: 300px;
     } 
 
@@ -479,6 +516,24 @@ font-size: 2.5rem;
         margin: 5px;
     }
 
+    .card-body{
+        min-height: 300px;
+    }
+
+    .actionButtonHeader{
+        top: -250px;
+        right: -550px;
+        width: 300px !important;
+    }
+
+    .callToActionDiv{
+        height: 375px;
+        color: white;
+        margin-top: 58px;
+        margin-bottom: 20px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
 
     
 }
@@ -505,7 +560,7 @@ font-size: 2.5rem;
     .cta{
         min-width: 15%;
         width: 10rem;
-        height: 2.5rem;
+        min-height: 2.5rem;
         text-align: center;
         padding-top: 8px;
         margin: auto;
@@ -586,6 +641,35 @@ font-size: 2.5rem;
         width: 100%;
         margin: 5px;
     }
+
+    .card-body{
+        min-height: 380px;
+    }
+
+    .card-header{
+        min-height: 120px;
+    }
+    .callToActionDiv{
+        height: 344px;
+    }
+    .callToActionDiv{
+        height: 307px;
+        color: white;
+        margin-top: 38px;
+        margin-bottom: 20px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .callToActionDiv h1{
+        font-size: 1.7rem;
+    }
+
+    .actionButtonHeader{
+        top: -250px;
+        right: -350px;
+        width: 300px !important;
+    }
     
 }
 /*styling middel toestel*/
@@ -615,7 +699,7 @@ font-size: 2.5rem;
     .cta{
         min-width: 15%;
         width: 10rem;
-        height: 2.5rem;
+        min-height: 2.5rem;
         text-align: center;
         padding-top: 8px;
         margin: auto;
@@ -707,7 +791,37 @@ font-size: 2.5rem;
         width: 100%;
     }
 
+    .card-body{
+        min-height: 500px;
+        margin-bottom: 100px;
+    }
 
+    .card-header{
+        min-height: 140px;
+    }
+
+    .callToActionDiv{
+        height: 286px;
+    }
+
+    .callToActionDiv{
+        height: 307px;
+        color: white;
+        margin-top: 38px;
+        margin-bottom: 20px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .callToActionDiv h1{
+        font-size: 1.7rem;
+    }
+
+    .actionButtonHeader{
+        right: -230px;
+        top: -150px;
+        width: 200px !important;
+    }
 
 }
 /*styling klein toestel*/
@@ -728,7 +842,7 @@ font-size: 2.5rem;
     .cta{
         min-width: 15%;
         width: 60%;
-        height: 3rem;
+        min-height: 3rem;
         text-align: center;
         padding-top: 10px;
         margin: auto;
@@ -824,6 +938,21 @@ font-size: 2.5rem;
         
     }
 
+    .card-body{
+        padding-bottom: 60px;
+    }
+
+    .callToActionDiv{
+        height: 390px;
+        width: 250px;
+        margin: auto;
+    }
+
+    .actionButtonHeader{
+        top: -100px;
+        width: 200px !important;
+    }
+
 }
 
 @media only screen and (max-width: 404px){
@@ -863,7 +992,7 @@ font-size: 2.5rem;
     .cta{
         min-width: 15%;
         width: 60%;
-        height: 3rem;
+        min-height: 3rem;
         text-align: center;
         padding-top: 10px;
         margin: auto;
@@ -941,6 +1070,21 @@ font-size: 2.5rem;
      .flex-row{
         width: 80%;
 
+    }
+
+    .card-body{
+        padding-bottom: 60px;
+    }
+
+    .callToActionDiv{
+        height: 300px;
+        width: 200px;
+        margin: auto;
+    }
+
+    .actionButtonHeader{
+        top: -80px;
+        width: 200px !important;
     }
 }
 
