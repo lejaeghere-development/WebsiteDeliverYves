@@ -1,1092 +1,1282 @@
-:root{
-    --darkbleu: #00203F;
-    --logobleu: #075fac;
-    --logogreen: #8cc97b;
-    --logolightgreen: #abd3a0;
-    --gray: #f8f9fa;
+:root {
+  --darkbleu: #00203f;
+  --logobleu: #075fac;
+  --logogreen: #8cc97b;
+  --logolightgreen: #abd3a0;
+  --gray: #f8f9fa;
 }
 
-*{
-    color: var(--logobleu);
-    padding: 0;
-    font-family: 'Lato', sans-serif;
+* {
+  color: var(--logobleu);
+  padding: 0;
+  font-family: "Lato", sans-serif;
 }
 
-hr{
-    background-color: var(--darkbleu);
-    margin-left: 20px;
-    margin-right: 20px;
+hr {
+  background-color: var(--darkbleu);
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
-#navigation-nav{
-    min-height: 170px;
+#navigation-nav {
+  min-height: 170px;
 }
 
-.dark{
-    color: var(--darkbleu);
+.dark {
+  color: var(--darkbleu);
 }
 
-.navbar-nav{
-    min-height: 130px;
+.navbar-nav {
+  min-height: 130px;
 }
 
-.carousel-inner{
-    height: 100%;
+.carousel-inner {
+  height: 100%;
 }
 
-.carousel-item{
-    height: 100%;
+.carousel-item {
+  height: 100%;
 }
 
-.carousel-item img{
-    height: 100%;
-    object-fit: cover;
+.carousel-item img {
+  height: 100%;
+  object-fit: cover;
 }
 
-.nav-link img{
-    display: block;
-    margin: auto;
+.nav-link img {
+  display: block;
+  margin: auto;
 }
-.nav-link img:hover{
-    display: block;
-    margin: auto;
-}
-
-.nav-link p{
-    text-align: center;
+.nav-link img:hover {
+  display: block;
+  margin: auto;
 }
 
-
-#melkP{
-    margin-left: 5px;
+.nav-link p {
+  text-align: center;
 }
 
-.headingP{
-    color: var(--darkbleu);
-    font-size: 1.2rem;
-    font-weight: 500;
+#melkP {
+  margin-left: 5px;
 }
 
-.nav-header{
-    margin-top: 20px;
+.headingP {
+  color: var(--darkbleu);
+  font-size: 1.2rem;
+  font-weight: 500;
 }
 
-.img-marketing{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    overflow: hidden;
+.nav-header {
+  margin-top: 20px;
 }
 
-.navbar-nav{
-    margin-top: 15px;
-    width: 100%;
-  }
-
-  .featurette-heading{
-    line-height: 1;
-    letter-spacing: -.05rem;
-    font-weight: 300;
+.img-marketing {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  overflow: hidden;
 }
 
-.contact-form{
-    background: #fff;
-    margin-top: 10%;
-    margin-bottom: 5%;
-    width: 70%;
+.navbar-nav {
+  margin-top: 15px;
+  width: 100%;
 }
-.contact-form .form-control{
-    border-radius:1rem;
+
+.featurette-heading {
+  line-height: 1;
+  letter-spacing: -0.05rem;
+  font-weight: 300;
 }
-.contact-image{
-    text-align: center;
+
+.contact-form {
+  background: #fff;
+  margin-top: 10%;
+  margin-bottom: 5%;
+  width: 70%;
 }
-.contact-image img{
-    border-radius: 6rem;
-    width: 11%;
-    margin-top: -3%;
-    transform: rotate(29deg);
+.contact-form .form-control {
+  border-radius: 1rem;
 }
-.contact-form form{
-    padding: 14%;
+.contact-image {
+  text-align: center;
 }
-.contact-form form .row{
-    margin-bottom: -7%;
+.contact-image img {
+  border-radius: 6rem;
+  width: 11%;
+  margin-top: -3%;
+  transform: rotate(29deg);
 }
-.contact-form h3{
-    margin-bottom: 8%;
-    margin-top: -10%;
-    text-align: center;
-    color: var(--darkbleu);
+.contact-form form {
+  padding: 14%;
+}
+.contact-form form .row {
+  margin-bottom: -7%;
+}
+.contact-form h3 {
+  margin-bottom: 8%;
+  margin-top: -10%;
+  text-align: center;
+  color: var(--darkbleu);
 }
 .contact-form .btnContact {
-    width: 50%;
-    border: none;
-    border-radius: 1rem;
-    padding: 1.5%;
-    background: #dc3545;
-    font-weight: 600;
-    color: #fff;
-    cursor: pointer;
+  width: 50%;
+  border: none;
+  border-radius: 1rem;
+  padding: 1.5%;
+  background: #dc3545;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
 }
-.btnContactSubmit
-{
-    width: 50%;
-    border-radius: 1rem;
-    padding: 1.5%;
-    color: #fff;
-    background-color: var(--logobleu);
-    border: none;
-    cursor: pointer;
-}
-
-.cta, .submitButton{
-    text-align: center;
-    border-radius: .1875rem;
-    transition: 0.3s ease-in-out;
-    display: inline-block;
-    text-decoration: none;
-    border: 0;
-    font-weight: 600;
-    line-height: 1.5em;
-    background-color: #8cc97b;
-    color: #fff;
-    border: 1px solid #8cc97b;
-    font-size: .9rem;
-    margin-top: 28px;
+.btnContactSubmit {
+  width: 50%;
+  border-radius: 1rem;
+  padding: 1.5%;
+  color: #fff;
+  background-color: var(--logobleu);
+  border: none;
+  cursor: pointer;
 }
 
-.cta:hover, .submitButton:hover{
-    background-color: #abd3a0;
-    color: #fff;
-    border: 1px solid #abd3a0;
-}
-.navbar-brand{
-    margin-right: 0;
-    margin-left: 25px;
-}
-.lead{
-    color: var(--darkbleu);
-    font-size: 1.25rem;
-    font-weight: 200;
-}
-.white{
-    color: white;
-    
+.cta,
+.submitButton {
+  text-align: center;
+  border-radius: 0.1875rem;
+  transition: 0.3s ease-in-out;
+  display: inline-block;
+  text-decoration: none;
+  border: 0;
+  font-weight: 600;
+  line-height: 1.5em;
+  background-color: #8cc97b;
+  color: #fff;
+  border: 1px solid #8cc97b;
+  font-size: 0.9rem;
+  margin-top: 28px;
 }
 
-.carousel-caption h1{
-font-size: 2.5rem;
-
+.cta:hover,
+.submitButton:hover {
+  background-color: #abd3a0;
+  color: #fff;
+  border: 1px solid #abd3a0;
+}
+.navbar-brand {
+  margin-right: 0;
+  margin-left: 25px;
+}
+.lead {
+  color: var(--darkbleu);
+  font-size: 1.25rem;
+  font-weight: 200;
+}
+.white {
+  color: white;
 }
 
-.carousel-caption P{
-    font-size: 1.5rem;
-    }
-
-.DarkBlue{
-    color: var(--darkbleu);
-}
-.imgProduct img{
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    display: table-row;
-    margin:auto;
+.carousel-caption h1 {
+  font-size: 2.5rem;
 }
 
-.product-info p{
-    color: var(--darkbleu);
-    text-align: center;
+.carousel-caption P {
+  font-size: 1.5rem;
 }
 
-.product-item{
-    margin-top: 20px;
+.DarkBlue {
+  color: var(--darkbleu);
+}
+.imgProduct img {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  display: table-row;
+  margin: auto;
 }
 
-.title{
-    margin-top: 20px;
+.product-info p {
+  color: var(--darkbleu);
+  text-align: center;
 }
 
-.headerProduct h2{
-    margin: auto;
+.product-item {
+  margin-top: 20px;
 }
 
-.product-info{
-    margin: auto;
+.title {
+  margin-top: 20px;
 }
 
-.panoramaImg{
-    filter: brightness(80%);
-    
+.headerProduct h2 {
+  margin: auto;
 }
 
- .Angled{
-    position: absolute;
-} 
+.product-info {
+  margin: auto;
+}
+
+.panoramaImg {
+  filter: brightness(80%);
+}
+
+.Angled {
+  position: absolute;
+}
 
 /*FAQ Section*/
 
 #faq-title {
-    font-family: Lato, sans-serif;
-    font-weight: 600;
-    font-size: 2.5rem;
-    color: white;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    margin-bottom: 4rem;
-    margin-top: 4rem;
-    display: flex;
-    justify-content: center;
-    background-image: url(../props/SVG/DeliverYves_patroon_blauw_groot.svg);
-    background-repeat: no-repeat;
-    background-size: 2000px 1500px;
-    background-position: 50%;
-    border-radius: .1875rem;
-    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+  font-family: Lato, sans-serif;
+  font-weight: 600;
+  font-size: 2.5rem;
+  color: white;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  margin-bottom: 4rem;
+  margin-top: 4rem;
+  display: flex;
+  justify-content: center;
+  background-image: url(../props/SVG/DeliverYves_patroon_blauw_groot.svg);
+  background-repeat: no-repeat;
+  background-size: 2000px 1500px;
+  background-position: 50%;
+  border-radius: 0.1875rem;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
 }
 
 .container-md {
-    width: 70%;
+  width: 70%;
 }
 
-#faq-btn{
-    color: #075FAC;
+#faq-btn {
+  color: #075fac;
 }
 
-.faq-accordion-body, ul, li{
-    color: #212529;
-    font-weight: lighter;
-    font-size: 1rem;
+.faq-accordion-body,
+ul,
+li {
+  color: #212529;
+  font-weight: lighter;
+  font-size: 1rem;
 }
 
-#faq-accordion-item{
-    margin-bottom: 0.5rem;
-    border-bottom: 1px solid rgba(0,0,0,.125)
+#faq-accordion-item {
+  margin-bottom: 0.5rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
 }
 
-.dropdown-link, .dropdown-item:hover{
+.dropdown-link,
+.dropdown-item:hover {
   color: var(--darkbleu);
-  text-decoration: none; 
+  text-decoration: none;
   width: 100%;
   height: 100%;
 }
 
-.dropdown-p{
-    color: var(--darkbleu);
-    text-align: center;
-    width: 100%;
+.dropdown-p {
+  color: var(--darkbleu);
+  text-align: center;
+  width: 100%;
 }
-.LinkConditions{
-    color: #212529;
-    font-weight: 100;
-    margin-left: 10px;
-}
-
-.dropdown-item-specials{
-    text-align: center;
-    background-color: var(--logogreen);
-    color: white;
-    padding: 0;
-    width: 100px;
-    margin: auto;
+.LinkConditions {
+  color: #212529;
+  font-weight: 100;
+  margin-left: 10px;
 }
 
-.dropdown-item-specials:hover{
-    text-align: center;
-    background-color: #e9ecef;
-    color: var(--darkbleu);
-    padding: 0;
-    width: 100px;
-    margin: auto;
+.dropdown-item-specials {
+  text-align: center;
+  background-color: var(--logogreen);
+  color: white;
+  padding: 0;
+  width: 100px;
+  margin: auto;
 }
 
-.dropdown-item:hover{
-    text-align: center;
+.dropdown-item-specials:hover {
+  text-align: center;
+  background-color: #e9ecef;
+  color: var(--darkbleu);
+  padding: 0;
+  width: 100px;
+  margin: auto;
+}
+
+.dropdown-item:hover {
+  text-align: center;
 }
 
 .dropdown-link {
-    display: flex;
-    justify-content: start;
-    padding: 0px;
+  display: flex;
+  justify-content: start;
+  padding: 0px;
 }
 
 /*Dropdown*/
-.dropdown-toggle::after{
-    margin-top: 0.9rem;
-    margin-left: 0.5rem;
-    position: relative;
-    width: 3px;
-    left: 7.5rem;
-    top: -3rem;
+.dropdown-toggle::after {
+  margin-top: 0.9rem;
+  margin-left: 0.5rem;
+  position: relative;
+  width: 3px;
+  left: 7.5rem;
+  top: -3rem;
 }
 
-.nav-onze-dranken{
-    margin-top: 20px;
-    display: inline;
+.nav-onze-dranken {
+  margin-top: 20px;
+  display: inline;
 }
 
 .dropdown-onze-dranken li {
-    display: inline-flex;
-    padding: 10px 0 0 30px;
-    align-items: center;
+  display: inline-flex;
+  padding: 10px 0 0 30px;
+  align-items: center;
 }
 
-
 .nav-link {
-    display: inline-flex;
-    flex-direction: column;
+  display: inline-flex;
+  flex-direction: column;
 }
 
 /*Drop down onze dranken*/
 .dropdown-menu.show {
-    top: 6rem;
-    box-shadow: 0 0 5px rgb(0 0 0 / 50%);
-    background-color: #F8F9FA;
-    display: flex;
+  top: 6rem;
+  box-shadow: 0 0 5px rgb(0 0 0 / 50%);
+  background-color: #f8f9fa;
+  display: flex;
 }
 
-.drinks-icon{
-    width: 40px;
-    height: 40px;
+.drinks-icon {
+  width: 40px;
+  height: 40px;
 }
 
-.flex-row{
-    display: flex;
-    flex-direction: row;
-    margin: 5px;
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  margin: 5px;
 }
 
-
-.h-2 li a{
-    padding: 0;
-    width: 100px;
-    margin: auto;
+.h-2 li a {
+  padding: 0;
+  width: 100px;
+  margin: auto;
 }
 
-.h-2{
-    margin-top: 15px;
-    margin-bottom: 15px;
+.h-2 {
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
-.ActionButtons{
-    position: absolute;
-    width: 90% !important;
-    right: 5%;
-    bottom:   10px;  
+.ActionButtons {
+  position: absolute;
+  width: 90% !important;
+  right: 5%;
+  bottom: 10px;
 }
 
-.btn-outline-primary{
-    border-color: var(--logogreen);
-    background-color: var(--logogreen);
-    color: white;
+.btn-outline-primary {
+  border-color: var(--logogreen);
+  background-color: var(--logogreen);
+  color: white;
 }
 
-.callToActionDiv{
-    background-color: var(--logolightgreen);
+.callToActionDiv {
+  background-color: var(--logolightgreen);
 }
 
-
-.callToActionDiv h1{
-    color: white;
-    height: 100%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 10px;
+.callToActionDiv h1 {
+  color: white;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
 }
 
-a{
-   text-decoration: none; 
+a {
+  text-decoration: none;
 }
 
-.actionButtonHeader{
-    position: relative;
+.actionButtonHeader {
+  position: relative;
 }
 
+.li-lead {
+  font-weight: 100;
+  color: black;
+  font-size: 1.25rem;
+}
+
+.custom-header {
+  background-color: var(--logobleu);
+}
+
+.custom-header h4 {
+  color: white;
+  font-size: 1.25rem;
+}
 
 /*styling zeer groot toestel*/
-@media only screen and (min-width: 1440px){
+@media only screen and (min-width: 1440px) {
+  .navbar-nav {
+    justify-content: space-evenly;
+  }
 
-    .navbar-nav{
-        justify-content: space-evenly;
-    }
+  .nav-link img {
+    height: 40px;
+  }
+  .nav-link img:hover {
+    height: 50px;
+  }
 
-    .nav-link img{
-        height: 40px;
-    }
-    .nav-link img:hover{
-        height: 50px;
-    }
+  #logoimage {
+    padding-bottom: 5px;
+    height: 170px;
+    margin-right: 50px;
+  }
 
+  .cta {
+    min-width: 15%;
+    width: 15rem;
+    min-height: 3rem;
+    text-align: center;
+    padding-top: 10px;
+    margin: auto;
+    display: block;
+  }
 
-    #logoimage{
-        padding-bottom: 5px;
-        height: 170px;
-        margin-right: 50px;
-    }
+  .submitButton {
+    min-width: 15%;
+    width: 15rem;
+    height: 3rem;
+    text-align: center;
+    margin: auto;
+    display: block;
+  }
 
-    .cta{
-        min-width: 15%;
-        width: 15rem;
-        min-height: 3rem;
-        text-align: center;
-        padding-top: 10px;
-        margin: auto;
-        display: block;
-    }
+  #contact {
+    display: flex;
+    align-items: center;
+  }
 
-    .submitButton{
-        min-width: 15%;
-        width: 15rem;
-        height: 3rem;
-        text-align: center;
-        margin: auto;
-        display: block;
-    }
+  #myCarousel {
+    height: 500px;
+  }
 
-    #contact{
-        display: flex;
-        align-items: center;
-    }
+  .imgProduct img,
+  .headerProduct h2,
+  .product-info {
+    width: 250px;
+    margin-top: 15px;
+  }
 
-    #myCarousel{
-        height: 500px;
-    }
+  .headerProduct h2 {
+    font-size: 1.2rem;
+  }
 
-    .imgProduct img, .headerProduct h2, .product-info {
-        width: 250px;
-        margin-top: 15px;
-    }
+  #h1Div {
+    margin-left: 73px;
+  }
 
-    .headerProduct h2{
-        font-size: 1.2rem;
-    }
-    
+  .featurette-heading {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+  }
 
-    #h1Div{
-      margin-left: 73px;
-    }
+  .objectDown {
+    object-position: bottom;
+  }
 
-    .featurette-heading{
-        margin-top: 4rem;
-        margin-bottom: 2rem;
-        font-size: 2.0rem;
-    }
+  .dropdown-direction {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+  }
+  .dropdown-menu.show {
+    width: 800px;
+    min-height: 150px;
+  }
+  .objectUp {
+    object-position: top;
+  }
 
-    .objectDown{
-        object-position: bottom;
-    }
+  .Angled {
+    font-size: 2.8rem !important;
+    left: -100px;
+    bottom: 300px;
+    width: 300px;
+  }
 
-    .dropdown-direction{
-        display: flex;
-        flex-direction: row;
-        width: 100%;
-        justify-content:space-around;
-    }
-    .dropdown-menu.show{
-        width: 800px;
-        min-height: 150px;
-    }
-    .objectUp{
-        object-position: top;
-    }
+  .dropdown-item-specials {
+    padding: 0.8rem;
+  }
 
-    .Angled{
-        font-size: 2.8rem !important;
-        left: -100px;
-        bottom: 300px;
-        width: 300px;
-    } 
+  .flex-row:first-child {
+    margin-left: 10px;
+  }
 
-    .dropdown-item-specials{
-        padding: 0.8rem;
-    }
+  .flex-row:last-child {
+    margin-right: 10px;
+  }
 
-    .flex-row:first-child{
-        margin-left: 10px;
-    }
-    
-    .flex-row:last-child{
-        margin-right: 10px;
-    }
+  .flex-row {
+    width: 100%;
+    margin: 5px;
+  }
 
-    .flex-row{
-        width: 100%;
-        margin: 5px;
-    }
+  .card-body {
+    min-height: 350px;
+  }
 
-    .card-body{
-        min-height: 300px;
-    }
+  .actionButtonHeader {
+    top: -250px;
+    right: -550px;
+    width: 300px !important;
+  }
 
-    .actionButtonHeader{
-        top: -250px;
-        right: -550px;
-        width: 300px !important;
-    }
+  .callToActionDiv {
+    height: 375px;
+    color: white;
+    margin-top: 58px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
 
-    .callToActionDiv{
-        height: 375px;
-        color: white;
-        margin-top: 58px;
-        margin-bottom: 20px;
-        margin-left: 15px;
-        margin-right: 15px;
-    }
+  .custom-header {
+    min-height: 50px;
+    background-color: var(--logobleu);
+  }
 
-    
+  .cta-button {
+    min-height: 50px;
+  }
 }
 
 /*styling groot toestel*/
-@media only screen and (max-width: 1440px) and (min-width: 1024px){
+@media only screen and (max-width: 1440px) and (min-width: 1024px) {
+  .navbar-nav {
+    justify-content: space-evenly;
+  }
 
-    .navbar-nav{
-        justify-content: space-evenly;
-    }
+  .nav-link img {
+    height: 40px;
+  }
+  .nav-link img:hover {
+    height: 50px;
+  }
 
-    .nav-link img{
-        height: 40px;
-    }
-    .nav-link img:hover{
-        height: 50px;
-    }
+  #logoimage {
+    padding-bottom: 5px;
+    height: 170px;
+    margin-right: 50px;
+  }
+  .cta {
+    min-width: 15%;
+    width: 10rem;
+    min-height: 2.5rem;
+    text-align: center;
+    padding-top: 8px;
+    margin: auto;
+    display: block;
+  }
 
-    #logoimage{
-        padding-bottom: 5px;
-        height: 170px;
-        margin-right: 50px;
-    }
-    .cta{
-        min-width: 15%;
-        width: 10rem;
-        min-height: 2.5rem;
-        text-align: center;
-        padding-top: 8px;
-        margin: auto;
-        display: block;
-    }
+  .submitButton {
+    min-width: 15%;
+    width: 10rem;
+    height: 2.5rem;
+    text-align: center;
+    margin: auto;
+    display: block;
+  }
 
-    .submitButton{
-        min-width: 15%;
-        width: 10rem;
-        height: 2.5rem;
-        text-align: center;
-        margin: auto;
-        display: block;
-    }
+  #contact {
+    display: flex;
+    align-items: center;
+    margin-right: 0;
+  }
 
-    #contact{
-        display: flex;
-        align-items: center;
-        margin-right: 0;
-    }
+  #myCarousel {
+    height: 350px;
+  }
 
-    #myCarousel{
-        height: 500px;
-    }
+  .imgProduct img,
+  .headerProduct h2,
+  .product-info {
+    width: 200px;
+  }
 
-    .imgProduct img, .headerProduct h2, .product-info {
-        width: 200px;
-    }
+  #h1Div {
+    margin-left: 20px;
+  }
 
-    #h1Div{
-        margin-left: 20px;
-      }
+  .headerProduct h2 {
+    font-size: 1.1rem;
+  }
 
-    .headerProduct h2 {
-        font-size: 1.1rem;
-    }
+  .featurette-heading {
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+    font-size: 1.7rem;
+  }
 
-    .featurette-heading{
-        margin-top: 3rem;
-        margin-bottom: 1.5rem;
-        font-size: 1.7rem;
-    }
+  .objectDown {
+    object-position: bottom;
+  }
 
-    .objectDown{
-        object-position: bottom;
-    }
+  .dropdown-direction {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
 
-    .dropdown-direction{
-        display: flex;
-        flex-direction: row;
-        width: 100%;
-    }
-    
-    .objectUp{
-        object-position: top;
-    }
+  .objectUp {
+    object-position: top;
+  }
 
-    .Angled{
-        font-size: 2.5rem !important;
-        left: -100px;
-        bottom: 290px;
-        width: 250px;
-    } 
+  .Angled {
+    font-size: 2.5rem !important;
+    left: -100px;
+    bottom: 290px;
+    width: 250px;
+  }
 
-    .dropdown-item-specials{
-        padding: 0.8rem;
-    }
+  .dropdown-item-specials {
+    padding: 0.8rem;
+  }
 
-    .flex-row:first-child{
-        margin-left: 10px;
-    }
-    
-    .flex-row:last-child{
-        margin-right: 10px;
-    }
+  .flex-row:first-child {
+    margin-left: 10px;
+  }
 
-    .flex-row{
-        width: 100%;
-        margin: 5px;
-    }
+  .flex-row:last-child {
+    margin-right: 10px;
+  }
 
-    .card-body{
-        min-height: 380px;
-    }
+  .flex-row {
+    width: 100%;
+    margin: 5px;
+  }
 
-    .card-header{
-        min-height: 120px;
-    }
-    .callToActionDiv{
-        height: 344px;
-    }
-    .callToActionDiv{
-        height: 307px;
-        color: white;
-        margin-top: 38px;
-        margin-bottom: 20px;
-        margin-left: 15px;
-        margin-right: 15px;
-    }
+  .callToActionDiv {
+    height: 344px;
+  }
+  .callToActionDiv {
+    height: 307px;
+    color: white;
+    margin-top: 38px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
 
-    .callToActionDiv h1{
-        font-size: 1.7rem;
-    }
+  .callToActionDiv h1 {
+    font-size: 1.7rem;
+  }
 
-    .actionButtonHeader{
-        top: -250px;
-        right: -350px;
-        width: 300px !important;
-    }
-    
+  .actionButtonHeader {
+    top: -250px;
+    right: -350px;
+    width: 300px !important;
+  }
+
+  .card-body {
+    min-height: 450px;
+  }
+
+  .custom-header {
+    min-height: 90px;
+  }
+
+  .cta-button {
+    min-height: 60px;
+  }
 }
 /*styling middel toestel*/
-@media only screen and (max-width: 1024px) and (min-width: 768px){
+@media only screen and (max-width: 1024px) and (min-width: 990px) {
+  .navbar-nav {
+    justify-content: space-evenly;
+  }
 
-    .navbar-nav{
-        justify-content: space-evenly;
-    }
+  .nav-item {
+    margin-right: 2rem;
+    min-width: 70px;
+  }
 
-    .nav-item{
-        margin-right: 2rem;
-        min-width: 70px;
-    }
+  .nav-link img {
+    height: 30px;
+  }
+  .nav-link img:hover {
+    height: 40px;
+  }
 
-    .nav-link img{
-        height: 30px;
-    }
-    .nav-link img:hover{
-        height: 40px;
-    }
+  #logoimage {
+    padding-bottom: 5px;
+    height: 100px;
+  }
 
-    #logoimage{
-        padding-bottom: 5px;
-        height: 100px;
-    }
+  .cta {
+    min-width: 15%;
+    width: 10rem;
+    min-height: 2.5rem;
+    text-align: center;
+    padding-top: 8px;
+    margin: auto;
+    display: block;
+  }
 
-    .cta{
-        min-width: 15%;
-        width: 10rem;
-        min-height: 2.5rem;
-        text-align: center;
-        padding-top: 8px;
-        margin: auto;
-        display: block;
-    }
+  .submitButton {
+    min-width: 15%;
+    width: 10rem;
+    height: 2.5rem;
+    text-align: center;
+    margin: auto;
+    display: block;
+  }
+  #contact {
+    display: flex;
+    align-items: center;
+    margin-right: 0;
+  }
 
-    .submitButton{
-        min-width: 15%;
-        width: 10rem;
-        height: 2.5rem;
-        text-align: center;
-        margin: auto;
-        display: block;
-    }
-    #contact{
-        display: flex;
-        align-items: center;
-        margin-right: 0;
-    }
+  .imgProduct img,
+  .headerProduct h2,
+  .product-info {
+    width: 200px;
+  }
 
-    .imgProduct img, .headerProduct h2, .product-info {
-        width: 200px;
-    }
+  .headerProduct h2 {
+    font-size: 1.1rem;
+  }
 
-    .headerProduct h2{
-        font-size: 1.1rem;
-    }
+  #myCarousel {
+    height: 400px;
+  }
+  .carousel-caption P {
+    font-size: 1.5rem;
+  }
 
-    #myCarousel{
-        height: 400px;
-    }
-    .carousel-caption P{
-        font-size: 1.5rem;
-    }
+  .featurette-heading {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    font-size: 1.7rem;
+  }
 
-    .featurette-heading{
-        margin-top: 3rem;
-        margin-bottom: 3rem;
-        font-size: 1.7rem;
-    }
+  .dropdown-menu li {
+    display: flex;
+  }
 
-    .dropdown-menu li {
-        display: flex;
-    }
-    
-    .dropdown-menu {
-        background: #F8F9FA;
-        box-shadow: 0 0 5px rgb(0 0 0 / 50%);
-    }
+  .dropdown-menu {
+    background: #f8f9fa;
+    box-shadow: 0 0 5px rgb(0 0 0 / 50%);
+  }
 
-    .dropdown-direction {
-        display: flex;
-        flex-direction: row;
-        width: 100%;
-    }
+  .dropdown-direction {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
 
-    .navbar-nav {
-        justify-content: space-evenly;
-    }
-    
-    .objectDown{
-        object-position: bottom;
-    }
+  .navbar-nav {
+    justify-content: space-evenly;
+  }
 
-    .objectUp{
-        object-position: top;
-    }
+  .objectDown {
+    object-position: bottom;
+  }
 
-    .Angled{
-        font-size: 2.2rem !important;
-        left: -80px;
-        bottom: 200px;
-        width: 180px;
-    } 
+  .objectUp {
+    object-position: top;
+  }
 
-    .dropdown-item-specials{
-        padding: 0.8rem;
-    }
+  .Angled {
+    font-size: 2.2rem !important;
+    left: -80px;
+    bottom: 200px;
+    width: 180px;
+  }
 
-    .flex-row:first-child{
-        margin-left: 10px;
-    }
-    
-    .flex-row:last-child{
-        margin-right: 10px;
-    }
+  .dropdown-item-specials {
+    padding: 0.8rem;
+  }
 
-    .flex-row{
-        width: 100%;
-    }
+  .flex-row:first-child {
+    margin-left: 10px;
+  }
 
-    .card-body{
-        min-height: 500px;
-        margin-bottom: 100px;
-    }
+  .flex-row:last-child {
+    margin-right: 10px;
+  }
 
-    .card-header{
-        min-height: 140px;
-    }
+  .flex-row {
+    width: 100%;
+  }
 
-    .callToActionDiv{
-        height: 286px;
-    }
+  .card-body {
+    min-height: 400px;
+    margin-bottom: 100px;
+  }
 
-    .callToActionDiv{
-        height: 307px;
-        color: white;
-        margin-top: 38px;
-        margin-bottom: 20px;
-        margin-left: 15px;
-        margin-right: 15px;
-    }
+  .callToActionDiv {
+    height: 286px;
+  }
 
-    .callToActionDiv h1{
-        font-size: 1.7rem;
-    }
+  .callToActionDiv {
+    height: 307px;
+    color: white;
+    margin-top: 38px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
 
-    .actionButtonHeader{
-        right: -230px;
-        top: -150px;
-        width: 200px !important;
-    }
+  .callToActionDiv h1 {
+    font-size: 1.7rem;
+  }
 
+  .actionButtonHeader {
+    right: -230px;
+    top: -150px;
+    width: 200px !important;
+  }
+
+  .custom-header {
+    min-height: 90px;
+  }
+
+  .cta-button {
+    min-height: 60px;
+  }
+}
+
+/*styling middel-klein toestel*/
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+  .navbar-nav {
+    justify-content: space-evenly;
+  }
+
+  .nav-item {
+    margin-right: 2rem;
+    min-width: 70px;
+  }
+
+  .nav-link img {
+    height: 30px;
+  }
+  .nav-link img:hover {
+    height: 40px;
+  }
+
+  #logoimage {
+    padding-bottom: 5px;
+    height: 100px;
+  }
+
+  .cta {
+    min-width: 15%;
+    width: 10rem;
+    min-height: 2.5rem;
+    text-align: center;
+    padding-top: 8px;
+    margin: auto;
+    display: block;
+  }
+
+  .submitButton {
+    min-width: 15%;
+    width: 10rem;
+    height: 2.5rem;
+    text-align: center;
+    margin: auto;
+    display: block;
+  }
+  #contact {
+    display: flex;
+    align-items: center;
+    margin-right: 0;
+  }
+
+  .imgProduct img,
+  .headerProduct h2,
+  .product-info {
+    width: 200px;
+  }
+
+  .headerProduct h2 {
+    font-size: 1.1rem;
+  }
+
+  #myCarousel {
+    height: 400px;
+  }
+  .carousel-caption P {
+    font-size: 1.5rem;
+  }
+
+  .featurette-heading {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    font-size: 1.7rem;
+  }
+
+  .dropdown-menu li {
+    display: flex;
+  }
+
+  .dropdown-menu {
+    background: #f8f9fa;
+    box-shadow: 0 0 5px rgb(0 0 0 / 50%);
+  }
+
+  .dropdown-direction {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .navbar-nav {
+    justify-content: space-evenly;
+  }
+
+  .objectDown {
+    object-position: bottom;
+  }
+
+  .objectUp {
+    object-position: top;
+  }
+
+  .Angled {
+    font-size: 2.2rem !important;
+    left: -80px;
+    bottom: 200px;
+    width: 180px;
+  }
+
+  .dropdown-item-specials {
+    padding: 0.8rem;
+  }
+
+  .flex-row:first-child {
+    margin-left: 10px;
+  }
+
+  .flex-row:last-child {
+    margin-right: 10px;
+  }
+
+  .flex-row {
+    width: 100%;
+  }
+
+  .card-body {
+    min-height: 400px;
+    margin-bottom: 100px;
+  }
+
+  .callToActionDiv {
+    height: 286px;
+  }
+
+  .callToActionDiv {
+    height: 307px;
+    color: white;
+    margin-top: 38px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  .callToActionDiv h1 {
+    font-size: 1.7rem;
+  }
+
+  .actionButtonHeader {
+    right: -230px;
+    top: -150px;
+    width: 200px !important;
+  }
+
+  .card-body {
+    min-height: 520px;
+  }
+
+  .custom-header {
+    min-height: 90px;
+  }
+
+  .cta-button {
+    min-height: 60px;
+  }
 }
 /*styling klein toestel*/
-@media only screen and (max-width: 767px) and (min-width: 405px){ 
-    .nav-item{
-        margin-right: 10px;
-        min-width: 70px;
-    }
+@media only screen and (max-width: 767px) and (min-width: 405px) {
+  .nav-item {
+    margin-right: 10px;
+    min-width: 70px;
+  }
 
-    .nav-link img{
-        height: 30px;
-        display: none;
-    }
-    .nav-link img:hover{
-        height: 40px;
-    }
+  .nav-link img {
+    height: 30px;
+    display: none;
+  }
+  .nav-link img:hover {
+    height: 40px;
+  }
 
-    .cta{
-        min-width: 15%;
-        width: 60%;
-        min-height: 3rem;
-        text-align: center;
-        padding-top: 10px;
-        margin: auto;
-        display: block;
-    }
+  .cta {
+    min-width: 15%;
+    width: 60%;
+    min-height: 3rem;
+    text-align: center;
+    padding-top: 10px;
+    margin: auto;
+    display: block;
+  }
 
-    .submitButton{
-        min-width: 15%;
-        width: 60%;
-        height: 3rem;
-        text-align: center;
-        margin: auto;
-        display: block;
-    }
+  .submitButton {
+    min-width: 15%;
+    width: 60%;
+    height: 3rem;
+    text-align: center;
+    margin: auto;
+    display: block;
+  }
 
-    .imgProduct img, .headerProduct h2, .product-info {
-        width: 230px;
-    }
+  .imgProduct img,
+  .headerProduct h2,
+  .product-info {
+    width: 230px;
+  }
 
-    .headerProduct h2{
-        font-size: 1.1rem;
-    }
+  .headerProduct h2 {
+    font-size: 1.1rem;
+  }
 
-    #myCarousel{
-        height: 400px;
-    }
+  #myCarousel {
+    height: 400px;
+  }
 
-    .carousel-caption P{
-        font-size: 1.5rem;
-    }
+  .carousel-caption P {
+    font-size: 1.5rem;
+  }
 
-    .featurette-heading{
-        margin-top: 2rem;
-        margin-bottom: 2rem;
-        font-size: 1.7rem;
-    }
-    
-    .dropdown-menu {
-        background: #F8F9FA;
-        box-shadow: 0 0 5px rgb(0 0 0 / 50%);
-    }
+  .featurette-heading {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 1.7rem;
+  }
 
+  .dropdown-menu {
+    background: #f8f9fa;
+    box-shadow: 0 0 5px rgb(0 0 0 / 50%);
+  }
 
-    .dropdown-direction{
-        display: flex;
-        flex-direction: column;
-        width: 80%;
-    }
+  .dropdown-direction {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+  }
 
-    .dropdown-menu li {
-        display: flex;
-    }
-    .dropdown-menu li img {
-        margin-left: 10px;
-        
-    }
+  .dropdown-menu li {
+    display: flex;
+  }
+  .dropdown-menu li img {
+    margin-left: 10px;
+  }
 
-    .dropdown-menu.show{
-        position: absolute;
-        width: 70%;
-    }
+  .dropdown-menu.show {
+    position: absolute;
+    width: 70%;
+  }
 
-    ul.dropdown-menu.show{
-        top: 3rem;
-    }
+  ul.dropdown-menu.show {
+    top: 3rem;
+  }
 
+  .objectDown {
+    object-position: bottom;
+  }
 
-    .objectDown{
-        object-position: bottom;
-    }
+  .objectUp {
+    object-position: top;
+  }
 
-    .objectUp{
-        object-position: top;
-    }
+  .Angled {
+    display: none;
+  }
 
-    .Angled{
-        display: none;
-    } 
+  .flex-row {
+    margin-left: 25%;
+    margin-top: 5px;
+    width: 80%;
+  }
 
-    .flex-row{
-       margin-left: 25%;
-       margin-top: 5px;
-       width: 80%;
-    }
+  .types {
+    padding: 0;
+    margin-left: 20%;
+  }
+  #logoimage {
+    padding-bottom: 5px;
+    height: 70px;
+  }
 
-    .types{
-        padding: 0;
-        margin-left: 20%;
-    }
-    #logoimage{
-        padding-bottom: 5px;
-        height: 70px;
-        
-    }
+  .card-body {
+    padding-bottom: 60px;
+  }
 
-    .card-body{
-        padding-bottom: 60px;
-    }
+  .callToActionDiv {
+    height: 390px;
+    width: 250px;
+    margin: auto;
+  }
 
-    .callToActionDiv{
-        height: 390px;
-        width: 250px;
-        margin: auto;
-    }
+  .actionButtonHeader {
+    top: -100px;
+    width: 200px !important;
+  }
 
-    .actionButtonHeader{
-        top: -100px;
-        width: 200px !important;
-    }
-
+  .cta-button {
+    height: 50px;
+  }
 }
 
-@media only screen and (max-width: 404px){
-    .nav-item{
-        margin-right: 10px;
-        min-width: 70px;
-    }
+@media only screen and (max-width: 404px) {
+  .nav-item {
+    margin-right: 10px;
+    min-width: 70px;
+  }
 
-    .nav-link img{
-        height: 30px;
-        display: none;
-    }
+  .nav-link img {
+    height: 30px;
+    display: none;
+  }
 
-    .nav-link img:hover{
-        height: 40px;
-    }
+  .nav-link img:hover {
+    height: 40px;
+  }
 
-    .nav-link p{
-        text-align: left;
-    }
+  .nav-link p {
+    text-align: left;
+  }
 
-    .navbar-brand {
-       position: absolute;
-       right: 0;
-       top: 0; 
-    } 
-    #logoimage{
-        padding-bottom: 5px;
-        height: 70px;
-        margin-right: 20px;
-    }
+  .navbar-brand {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  #logoimage {
+    padding-bottom: 5px;
+    height: 70px;
+    margin-right: 20px;
+  }
 
-    #navigationHeader{
-        min-height: 75px;
-    }
+  #navigationHeader {
+    min-height: 75px;
+  }
 
-    .cta{
-        min-width: 15%;
-        width: 60%;
-        min-height: 3rem;
-        text-align: center;
-        padding-top: 10px;
-        margin: auto;
-        display: block;
-    }
+  .cta {
+    min-width: 15%;
+    width: 60%;
+    min-height: 3rem;
+    text-align: center;
+    padding-top: 10px;
+    margin: auto;
+    display: block;
+  }
 
-    .imgProduct img, .headerProduct h2, .product-info {
-        width: 200px;
-    }
+  .imgProduct img,
+  .headerProduct h2,
+  .product-info {
+    width: 200px;
+  }
 
-    #myCarousel{
-        height: 300px;
-    }
+  #myCarousel {
+    height: 300px;
+  }
 
-    .carousel-caption P{
-        font-size: 1rem;
-        }
+  .carousel-caption P {
+    font-size: 1rem;
+  }
 
-    #cheers{
-        margin-bottom: 30px;
-        }
+  #cheers {
+    margin-bottom: 30px;
+  }
 
-    .carousel-caption h1{
-        font-size: 1.5rem;
-    }
+  .carousel-caption h1 {
+    font-size: 1.5rem;
+  }
 
-    .featurette-heading{
-        margin-top: 1.5rem;
-        margin-bottom: 2rem;
-        font-size: 1.6rem;
-    }
-    
-    .objectDown{
-        object-position: bottom;
-    }
+  .featurette-heading {
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+    font-size: 1.6rem;
+  }
 
-    .dropdown-menu li {
-        display: flex;
-    }
-    
-    .dropdown-menu {
-        background: #F8F9FA;
-        box-shadow: 0 0 5px rgb(0 0 0 / 50%);
-    }
+  .objectDown {
+    object-position: bottom;
+  }
 
-    .dropdown-direction{
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-    }
+  .dropdown-menu li {
+    display: flex;
+  }
 
-    .objectUp{
-        object-position: top;
-    }
+  .dropdown-menu {
+    background: #f8f9fa;
+    box-shadow: 0 0 5px rgb(0 0 0 / 50%);
+  }
 
-    .Angled{
-        display: none;
-    } 
-    .headerProduct h2{
-        font-size: 1.1rem;
-    }
-    .carousel-caption {
-        padding-bottom: 0rem;
-    }
+  .dropdown-direction {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
 
-    #carousel-padding-bottom{
-        padding-bottom: 8rem;
-    }
+  .objectUp {
+    object-position: top;
+  }
 
-    .flex-row{
-        margin-left: 10%;
-        margin-top: 5px;
-     }
+  .Angled {
+    display: none;
+  }
+  .headerProduct h2 {
+    font-size: 1.1rem;
+  }
+  .carousel-caption {
+    padding-bottom: 0rem;
+  }
 
-     .flex-row{
-        width: 80%;
+  #carousel-padding-bottom {
+    padding-bottom: 8rem;
+  }
 
-    }
+  .flex-row {
+    margin-left: 10%;
+    margin-top: 5px;
+  }
 
-    .card-body{
-        padding-bottom: 60px;
-    }
+  .flex-row {
+    width: 80%;
+  }
 
-    .callToActionDiv{
-        height: 300px;
-        width: 200px;
-        margin: auto;
-    }
+  .card-body {
+    padding-bottom: 60px;
+  }
 
-    .actionButtonHeader{
-        top: -80px;
-        width: 200px !important;
-    }
+  .callToActionDiv {
+    height: 300px;
+    width: 200px;
+    margin: auto;
+  }
+
+  .actionButtonHeader {
+    top: -80px;
+    width: 200px !important;
+  }
+
+  .cta-button {
+    height: 160px;
+  }
 }
-
-
-
