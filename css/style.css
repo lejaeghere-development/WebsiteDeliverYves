@@ -1,29 +1,35 @@
 :root {
   --darkbleu: #00203f;
-  --logobleu: #075fac;
+  --dellbleu: #3287c1;
+  --delldarkblue: #1b7fc2;
+  --dellgray: #636363;
+  --dellblack: #0e0e0e;
+  --delllightgray: #f9f9f9;
   --logogreen: #8cc97b;
   --logolightgreen: #abd3a0;
   --gray: #f8f9fa;
+  --bleugreen: #1E96A6;
+  --powderbleu: #B5D9D9;
+  --floralwhite: #F6F5F3;
+  --bistre: #412518;
+  --coconuthusk: #795D43;
+
 }
 
 * {
-  color: var(--logobleu);
+  color: var(--dellblack);
   padding: 0;
-  font-family: "Lato", sans-serif;
+  font-family: inherit;
 }
 
 hr {
-  background-color: var(--darkbleu);
+  background-color: var(--dellbleu);
   margin-left: 20px;
   margin-right: 20px;
 }
 
 #navigation-nav {
   min-height: 170px;
-}
-
-.dark {
-  color: var(--darkbleu);
 }
 
 .navbar-nav {
@@ -61,13 +67,12 @@ hr {
 }
 
 .headingP {
-  color: var(--darkbleu);
   font-size: 1.2rem;
   font-weight: 500;
 }
 
 .nav-header {
-  margin-top: 20px;
+  margin-top: 40px;
 }
 
 .img-marketing {
@@ -116,7 +121,6 @@ hr {
   margin-bottom: 8%;
   margin-top: -10%;
   text-align: center;
-  color: var(--darkbleu);
 }
 .contact-form .btnContact {
   width: 50%;
@@ -126,15 +130,6 @@ hr {
   background: #dc3545;
   font-weight: 600;
   color: #fff;
-  cursor: pointer;
-}
-.btnContactSubmit {
-  width: 50%;
-  border-radius: 1rem;
-  padding: 1.5%;
-  color: #fff;
-  background-color: var(--logobleu);
-  border: none;
   cursor: pointer;
 }
 
@@ -148,25 +143,24 @@ hr {
   border: 0;
   font-weight: 600;
   line-height: 1.5em;
-  background-color: #8cc97b;
+  background-color: var(--dellgray);
   color: #fff;
-  border: 1px solid #8cc97b;
+  border: 1px solid var(--bistre);
   font-size: 0.9rem;
   margin-top: 28px;
 }
 
 .cta:hover,
 .submitButton:hover {
-  background-color: #abd3a0;
+  background-color: var(--delldarkblue);
   color: #fff;
-  border: 1px solid #abd3a0;
+  border: 1px solid var(--darkbleu);
 }
 .navbar-brand {
   margin-right: 0;
   margin-left: 25px;
 }
 .lead {
-  color: var(--darkbleu);
   font-size: 1.25rem;
   font-weight: 200;
 }
@@ -182,9 +176,6 @@ hr {
   font-size: 1.5rem;
 }
 
-.DarkBlue {
-  color: var(--darkbleu);
-}
 .imgProduct img {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   display: table-row;
@@ -192,7 +183,7 @@ hr {
 }
 
 .product-info p {
-  color: var(--darkbleu);
+  color: var(--dellbleu);
   text-align: center;
 }
 
@@ -246,7 +237,7 @@ hr {
 }
 
 #faq-btn {
-  color: #075fac;
+  color: var(--dellbleu);
 }
 
 .faq-accordion-body,
@@ -264,14 +255,14 @@ li {
 
 .dropdown-link,
 .dropdown-item:hover {
-  color: var(--darkbleu);
+  color: var(--dellbleu);
   text-decoration: none;
   width: 100%;
   height: 100%;
 }
 
 .dropdown-p {
-  color: var(--darkbleu);
+  color: var(--dellbleu);
   text-align: center;
   width: 100%;
 }
@@ -283,7 +274,7 @@ li {
 
 .dropdown-item-specials {
   text-align: center;
-  background-color: var(--logogreen);
+  background-color: var(--dellgray);
   color: white;
   padding: 0;
   width: 100px;
@@ -292,8 +283,8 @@ li {
 
 .dropdown-item-specials:hover {
   text-align: center;
-  background-color: #e9ecef;
-  color: var(--darkbleu);
+  background-color: var(--dellgray);
+  color: var(--dellbleu);
   padding: 0;
   width: 100px;
   margin: auto;
@@ -339,7 +330,7 @@ li {
 .dropdown-menu.show {
   top: 6rem;
   box-shadow: 0 0 5px rgb(0 0 0 / 50%);
-  background-color: #f8f9fa;
+  background-color: var(--dellgray);
   display: flex;
 }
 
@@ -373,13 +364,13 @@ li {
 }
 
 .btn-outline-primary {
-  border-color: var(--logogreen);
-  background-color: var(--logogreen);
+  border-color: var(--delldarkblue);
+  background-color: var(--dellbleu);
   color: white;
 }
 
 .callToActionDiv {
-  background-color: var(--logolightgreen);
+  background-color: var(--dellbleu);
 }
 
 .callToActionDiv h1 {
@@ -408,7 +399,7 @@ a {
 }
 
 .custom-header {
-  background-color: var(--logobleu);
+  background-color: var(--dellgray);
 }
 
 .custom-header h4 {
@@ -431,7 +422,7 @@ a {
 
   #logoimage {
     padding-bottom: 5px;
-    height: 170px;
+    height: 50px;
     margin-right: 50px;
   }
 
@@ -547,7 +538,6 @@ a {
 
   .custom-header {
     min-height: 50px;
-    background-color: var(--logobleu);
   }
 
   .cta-button {
@@ -570,7 +560,7 @@ a {
 
   #logoimage {
     padding-bottom: 5px;
-    height: 170px;
+    height: 50px;
     margin-right: 50px;
   }
   .cta {
@@ -714,7 +704,7 @@ a {
 
   #logoimage {
     padding-bottom: 5px;
-    height: 100px;
+    height: 50px;
   }
 
   .cta {
@@ -871,7 +861,7 @@ a {
 
   #logoimage {
     padding-bottom: 5px;
-    height: 100px;
+    height: 50px;
   }
 
   .cta {
@@ -1120,7 +1110,7 @@ a {
   }
   #logoimage {
     padding-bottom: 5px;
-    height: 70px;
+    height: 50px;
   }
 
   .card-body {
