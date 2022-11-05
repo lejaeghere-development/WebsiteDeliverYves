@@ -1,256 +1,125 @@
-.starter-template{
-    text-align: center;
-    background-image: url('../props/SVG/DeliverYves_patroon_blauw_basis.svg');
-}
-
-#main{
-    padding-bottom: 5rem;
-}
-
-.overlay{
-    position: relative;
-    top: -32.5%;
-    left: 30%;
-    height: 100%;
-    width: 100%;
-    background-color:#075FAC42;
-    opacity: 0;
-    transition: .75s ease;
-}
-
-.ctr{
-    position: relative;
-    transform: translate(-30%, -67.5%);
-    -webkit-transform: translate(-30%, -67.5%);
-    -ms-transform: translate(-30%, -67.5%);
-    -moz-transform: translate(-30%, -67.5%);
-    text-align: center;
-    border-radius: 5px;
-}
-
-.imghov:hover .overlay {
-    opacity: 1;
-    cursor: pointer;
-}
-
-.btn-middle{
-    position: absolute;
-    top: 70%;
-    left: 28%; 
-    text-decoration: none;
-    font-size: 20px;
-    color: #ffffff;
-}
-
-.modal-header {
-    background-color: #8cc97b;
-}
-
-.modal-body{
-    background-color: #f8f9fa;
-}
-
-.resize-img{
-    width: 50%;
-    height: 100%;
-}
-
-.about-me-text{
-    display: flex;
-    align-items: center;
-    text-align: initial;
-    margin-left: 0.5rem;
-}
-
-.about-me-text p{
-    color: #00203F;
-}
-
-
-.group-img-overlay{
-    position: absolute;
-    
-}
-
-.lead h4, p{
-    color: #00203F;
-}
-
-.lead h4::first-letter{
-    font-size: 200%;
-    color: #075fac;;
-}
-
-.lead{
-    text-align: justify;
-    width: 80%;
-}
-
-
-.modal-body p::first-letter {
-    font-size: 200%;
-    color: #8cc97b;
+:root {
+    --darkbleu: #00203f;
+    --dellbleu: #3287c1;
+    --delldarkblue: #1b7fc2;
+    --dellgray: #636363;
+    --dellblack: #0e0e0e;
+    --delllightgray: #f9f9f9;
+    --logogreen: #8cc97b;
+    --logolightgreen: #abd3a0;
+    --gray: #f8f9fa;
+    --bleugreen: #1E96A6;
+    --powderbleu: #B5D9D9;
+    --floralwhite: #F6F5F3;
+    --bistre: #412518;
+    --coconuthusk: #795D43;
+  
   }
 
-.titel-team h4{
-      text-align: center;
-  }
+  a:hover { 
+    color: var(--delldarkblue); 
+} 
 
-.container-empty{
-    border: 1x solid green;
+.aboutus-section {
+    padding: 90px 0;
+}
+.aboutus-title {
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height: 32px;
+    margin: 0 0 39px;
+    padding: 0 0 11px;
+    position: relative;
+    text-transform: uppercase;
+    color: #000;
+}
+.aboutus-title::after {
+    background: var(--delldarkblue) none repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    height: 2px;
+    left: 0;
+    position: absolute;
+    width: 54px;
+}
+.aboutus-text {
+    color: #606060;
+    font-size: 16px;
+    line-height: 22px;
+    margin: 0 0 35px;
+}
+.aboutus-more {
+    border: 1px solid var(--delldarkblue);
+    border-radius: 25px;
+    color: var(--delldarkblue);
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0;
+    padding: 7px 20px;
+    text-transform: uppercase;
+}
+.feature .feature-box .iconset {
+    background: #fff none repeat scroll 0 0;
+    float: left;
+    position: relative;
+    width: 18%;
+}
+.feature .feature-box .iconset::after {
+    background: #fdb801 none repeat scroll 0 0;
+    content: "";
+    height: 150%;
+    left: 43%;
+    position: absolute;
+    top: 100%;
+    width: 1px;
+}
+
+.feature .feature-box .feature-content h4 {
+    color: #0f0f0f;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 22px;
+    margin: 0 0 5px;
 }
 
 
-/** Media Queries **/
-/*styling extreem groot toestel*/
-@media only screen and (min-width: 1800px){
-
-    .container-header{
-        margin-bottom: 20rem;
-    }
-
-    .starter-template{
-        min-height: 30rem;
-        padding: 3rem 1.5rem;
-    }
-
-
-    .group-img-overlay{
-        top: 48%;
-        width: 1000px; 
-    }
-    
+.feature .feature-box .feature-content {
+    float: left;
+    padding-left: 28px;
+    width: 78%;
 }
-/*styling zeer groot toestel*/
-@media only screen and (max-width: 1800px) and (min-width: 1400px){
-    .container-header{
-        margin-bottom: 20rem;
-    }
-
-    .starter-template{
-        min-height: 30rem;
-        padding: 3rem 1.5rem;
-    }
-
-    .group-img-overlay{
-        top: 48%;
-        width: 1000px; 
-    }
-    
+.feature .feature-box .feature-content h4 {
+    color: #0f0f0f;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 22px;
+    margin: 0 0 5px;
+}
+.feature .feature-box .feature-content p {
+    color: #606060;
+    font-size: 13px;
+    line-height: 22px;
+}
+.icon {
+    color : #f4b841;
+    padding:0px;
+    font-size:40px;
+    border: 1px solid #fdb801;
+    border-radius: 100px;
+    color: #fdb801;
+    font-size: 28px;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    width: 70px;
 }
 
-/*styling groot toestel*/
-@media only screen and (max-width: 1399px) and (min-width: 1200px){
-    .container-header{
-        margin-bottom: 13rem;
-    }
-
-    .starter-template{
-        height: 30rem;
-        padding: 4rem 1.5rem;
-    }
-
-    .group-img-overlay{
-        top: 48%;
-        width: 850px;
-        left: auto;
-    }
-
+.headingP {
+    font-size: 1.2rem;
+    font-weight: 500;
 }
 
-/*styling groot toestel*/
-@media only screen and (max-width: 1199px) and (min-width: 990px){
-    .container-header{
-        margin-bottom: 11rem;
-    }
-
-    .starter-template{
-        height: 30rem;
-        padding: 4rem 1.5rem;
-    }
-
-    .group-img-overlay{
-        top: 45%;
-        width: 700px;
-        left: auto;
-    }
-
-}
-
-/*styling middel-klein toestel*/
-@media only screen and (max-width: 991px) and (min-width: 768px){
-
-    .container-header{
-        margin-bottom: 10rem;
-    }
-
-    .starter-template{
-        min-height: 20rem;
-        padding: 4rem 3;
-    }
-
-    .group-img-overlay{
-        top: 35%;
-        width: 550px;
-    }
-
-    
-}
-/*styling klein toestel*/
-@media only screen and (max-width: 767px) and (min-width: 405px){ 
-
-    .container-header{
-        margin-bottom: 10rem;
-    }
-
-    .starter-template{
-        min-height: 15rem;
-        padding: 4rem 3;
-    }
-
-    .lead{
-        font-size: 1rem;
-        text-align: left;
-    }
-
-    .lead h4{
-        font-size: 1rem;
-    }
-    
-    .group-img-overlay{
-        top: 25%;
-        right: calc(50vw - 150px);
-        width: 300px;
-    }
-}
-
-
-@media only screen and (max-width: 404px){
-
-    .container-header{
-        margin-bottom: 10rem;
-    }
-
-    .starter-template{
-        min-height: 10rem;
-        padding: 4rem 3;
-    }
-
-    .lead{
-        font-size: 1rem;
-        text-align: left;
-    }
-
-    .lead h4{
-        font-size: 1rem;
-    }
-   
-    .group-img-overlay{
-        top: 25%;
-        right: calc(50vw - 125px);
-        width: 250px;
-    }
-}
 
 
 

@@ -1,11 +1,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
 
-:root{
-    --darkbleu: #00203F;
-    --logobleu: #075fac;
-    --logogreen: #8cc97b;
-    --logolightgreen: #abd3a0;
-    --gray: #f8f9fa;
+:root {
+  --darkbleu: #00203f;
+  --dellbleu: #3287c1;
+  --delldarkblue: #1b7fc2;
+  --dellgray: #636363;
+  --dellblack: #0e0e0e;
+  --delllightgray: #f9f9f9;
+  --logogreen: #8cc97b;
+  --logolightgreen: #abd3a0;
+  --gray: #f8f9fa;
+  --bleugreen: #1E96A6;
+  --powderbleu: #B5D9D9;
+  --floralwhite: #F6F5F3;
+  --bistre: #412518;
+  --coconuthusk: #795D43;
+
 }
 
 * {
@@ -16,6 +26,19 @@
 
 a{
   text-decoration: none;
+}
+
+.contact-form {
+  background: #fff;
+  margin: 5%;
+  padding: 5%;
+  width: 90%;
+}
+.contact-form .form-control {
+  border-radius: 1rem;
+}
+.contact-form form {
+  padding: 14%;
 }
 
 
@@ -41,13 +64,13 @@ a{
 }
 
 .contact-form {
-  background-color: var(--logogreen);
+  background-color: var(--delllightgray);
   position: relative;
 }
 
 .circle {
   border-radius: 50%;
-  background: linear-gradient(135deg, transparent 20%, var(--logogreen));
+  background: linear-gradient(135deg, transparent 20%, var(--dellbleu));
   position: absolute;
 }
 
@@ -63,24 +86,6 @@ a{
   height: 80px;
   top: 10px;
   right: 30px;
-}
-
-.contact-form:before {
-  content: "";
-  position: absolute;
-  width: 26px;
-  height: 26px;
-  background-color: var(--logogreen);
-  transform: rotate(45deg);
-  top: 50px;
-  left: -13px;
-}
-
-form {
-  padding: 2.3rem 2.2rem;
-  z-index: 10;
-  overflow: hidden;
-  position: relative;
 }
 
 .title {
@@ -99,7 +104,7 @@ form {
 .input {
   width: 100%;
   outline: none;
-  border: 2px solid #fafafa;
+  border: 2px solid var(--dellblack);
   background: none;
   padding: 0.6rem 1.2rem;
   color: #fff;
@@ -141,10 +146,10 @@ textarea.input {
 
 .btn {
   padding: 0.6rem 1.3rem;
-  background-color: #fff;
-  border: 2px solid #fafafa;
+  background-color: inherit;
+  border: 2px solid var(--dellblack);
   font-size: 0.95rem;
-  color: var(--logogreen);
+  color: inherit;
   line-height: 1;
   border-radius: 25px;
   outline: none;
@@ -155,7 +160,7 @@ textarea.input {
 
 .btn:hover {
   background-color: transparent;
-  color: #fff;
+  color: var(--dellblack)
 }
 
 .fab{
@@ -169,8 +174,8 @@ textarea.input {
   transform: translateY(-50%);
   font-size: 0.8rem;
   padding: 0 0.4rem;
-  color: white;
-  background-color: var(--logogreen);
+  color: var(--dellblack);
+  background-color: var(--delllightgray);
   pointer-events: none;
   z-index: 500;
 }
@@ -183,7 +188,6 @@ textarea.input {
   opacity: 0;
   transition: 0.3s;
   height: 5px;
-  background-color: var(--logogreen);
   top: 50%;
   transform: translateY(-50%);
 }
@@ -320,7 +324,7 @@ input:-webkit-autofill:active {
 
 #contactUs{
   font-size: 1.5rem;
-  color: white;
+  color: var(--dellblack);
 }
 
 @media (max-width: 850px) {
